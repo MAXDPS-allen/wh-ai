@@ -1,0 +1,6 @@
+rank,mp_id,formula,fe_score,assessment,point_group,space_group,band_gap_eV,is_stable,key_features,notes
+1,mp-626417,CsH3O2,89.0,EXCELLENT,mm2,Amm2 (#38),4.09,True,Known FE space group; Moderate lattice distortion; Large band gap,Cesium hydrogen oxide - shares structure with known ferroelectrics
+2,mp-753401,Sc2TiO5,89.0,EXCELLENT,mm2,Cmc2_1 (#36),3.13,True,Contains B-site Ti; Polar symmetry; Large band gap,Scandium titanate - Ti-O octahedra similar to perovskites
+3,mp-625136,CsHO,84.5,EXCELLENT,mm2,Cmc2_1 (#36),3.43,True,Known FE space group; Large band gap,Cesium hydroxide - strong insulator
+4,mp-23904,BaH4O3,81.5,EXCELLENT,mm2,Polar,4.26,True,Contains A-site Ba; Very large band gap,Barium hydrogen oxide - Ba similar to BaTiO3
+5,mp-561851,CsNO3,78.5,GOOD,3,Trigonal polar,3.3,True,Polar point group; Large band gap,Cesium nitrate - trigonal polar structure

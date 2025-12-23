@@ -1,0 +1,13 @@
+============================================================
+Inverse Design Training Report (64-dim features)
+============================================================
+
+Date: 2025-12-23 16:53:01
+Feature Dimension: 64
+Total Epochs: 52
+
+Final Metrics:
+  Element Top-1 Accuracy: 62.7%
+  Element Top-3 Accuracy: 75.2%
+  Lattice MSE: 0.021521
+  Fraction MSE: 0.003248

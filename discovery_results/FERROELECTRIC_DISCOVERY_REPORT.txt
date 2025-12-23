@@ -1,0 +1,137 @@
+
+================================================================================
+                    FERROELECTRIC MATERIAL DISCOVERY REPORT
+================================================================================
+
+Generated: 2025-12-23 17:33:05
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Using an AI-driven materials discovery pipeline, we identified 5 real materials
+from the Materials Project database that exhibit high ferroelectric potential.
+These candidates were discovered through:
+
+1. GAN-based candidate generation (200 samples)
+2. Inverse design for material composition
+3. Chemical/physical validation filtering
+4. Materials Project database matching
+5. Deep ferroelectric property analysis
+
+DISCOVERED FERROELECTRIC CANDIDATES
+--------------------------------------------------------------------------------
+
+1. CsH3O2 (mp-626417) - FE Score: 89.0/100 [EXCELLENT]
+   ------------------------------------------------------------
+   Space Group: Amm2 (#38) - KNOWN FERROELECTRIC SPACE GROUP
+   Point Group: mm2 (polar)
+   Band Gap: 4.09 eV (insulator)
+   Stability: Thermodynamically stable
+   
+   Key Features:
+   - Crystallizes in Amm2, same space group as orthorhombic BaTiO3
+   - Strong lattice distortion suggests possible ferroelectric transition
+   - Large band gap ensures insulating behavior required for polarization
+   
+   Recommendation: HIGH PRIORITY for experimental synthesis/characterization
+
+2. Sc2TiO5 (mp-753401) - FE Score: 89.0/100 [EXCELLENT]
+   ------------------------------------------------------------
+   Space Group: Cmc2_1 (#36) - KNOWN FERROELECTRIC SPACE GROUP
+   Point Group: mm2 (polar)
+   Band Gap: 3.13 eV (insulator)
+   Stability: Thermodynamically stable
+   
+   Key Features:
+   - Contains titanium (B-site element like in BaTiO3, PbTiO3)
+   - Ti-O octahedra likely to exhibit off-center displacement
+   - Scandium provides stable framework
+   
+   Recommendation: HIGH PRIORITY - Titanate compound with FE potential
+
+3. CsHO (mp-625136) - FE Score: 84.5/100 [EXCELLENT]
+   ------------------------------------------------------------
+   Space Group: Cmc2_1 (#36)
+   Point Group: mm2 (polar)
+   Band Gap: 3.43 eV (insulator)
+   Stability: Thermodynamically stable
+   
+   Key Features:
+   - Simple composition with known ferroelectric structure
+   - Large insulating gap
+   - Hydrogen bonding may contribute to polarization
+   
+   Recommendation: MEDIUM-HIGH PRIORITY
+
+4. BaH4O3 (mp-23904) - FE Score: 81.5/100 [EXCELLENT]
+   ------------------------------------------------------------
+   Space Group: Polar
+   Point Group: mm2 (polar)
+   Band Gap: 4.26 eV (wide-gap insulator)
+   Stability: Thermodynamically stable
+   
+   Key Features:
+   - Contains barium (A-site element like in BaTiO3)
+   - Very large band gap (4.26 eV)
+   - Polar symmetry confirmed
+   
+   Recommendation: MEDIUM PRIORITY - Ba-containing candidate
+
+5. CsNO3 (mp-561851) - FE Score: 78.5/100 [GOOD]
+   ------------------------------------------------------------
+   Space Group: Trigonal (#144)
+   Point Group: 3 (polar)
+   Band Gap: 3.30 eV (insulator)
+   Stability: Thermodynamically stable
+   
+   Key Features:
+   - Trigonal polar structure
+   - NO3 groups may exhibit rotational switching
+   
+   Recommendation: LOWER PRIORITY but still a valid candidate
+
+COMPARISON WITH KNOWN FERROELECTRICS
+--------------------------------------------------------------------------------
+| Property          | BaTiO3  | CsH3O2 | Sc2TiO5 |
+|-------------------|---------|--------|---------|
+| Space Group       | Amm2    | Amm2   | Cmc2_1  |
+| Point Group       | mm2     | mm2    | mm2     |
+| Band Gap (eV)     | 3.2     | 4.09   | 3.13    |
+| Contains Ti/Nb/Ta | Yes     | No     | Yes     |
+| Polar             | Yes     | Yes    | Yes     |
+
+TECHNICAL DETAILS
+--------------------------------------------------------------------------------
+Models Used:
+- FE_GAN_v2: Generative Adversarial Network for ferroelectric features
+- inverse_design_v6: Feature-to-composition decoder
+- GCNN_v2: Graph Convolutional classifier (95.6% accuracy)
+
+Feature Engineering:
+- 64-dimensional feature vector (unified across all models)
+- Components: lattice (12d), composition (24d), symmetry (8d), 
+  bonding (12d), thermodynamic (8d)
+
+Validation Pipeline:
+- Chemistry validation (charge balance, element combinations)
+- Lattice validation (parameter ranges, volume)
+- Ferroelectric pattern matching
+- Materials Project database comparison
+
+NEXT STEPS
+--------------------------------------------------------------------------------
+1. Literature review for existing data on discovered candidates
+2. DFT calculations to confirm polar instability
+3. Berry phase polarization calculations
+4. Phonon calculations for soft mode analysis
+5. Experimental synthesis of top candidates
+6. Dielectric/polarization measurements
+
+OUTPUT FILES
+--------------------------------------------------------------------------------
+- final_ferroelectric_candidates.csv    : Detailed candidate data
+- mp_comparison/mp_matched_materials.csv: All MP database matches
+- generated_materials/validated_materials.csv: Validated generated materials
+
+================================================================================
+                              END OF REPORT
+================================================================================

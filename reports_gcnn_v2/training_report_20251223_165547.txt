@@ -1,0 +1,13 @@
+============================================================
+GCNN Training Report (64-dim features)
+============================================================
+
+Date: 2025-12-23 16:55:48
+Feature Dimension: 64
+Model Type: GCNN
+Total Epochs: 47
+
+Final Metrics:
+  Validation Accuracy: 95.6%
+  Validation AUC: 0.9845
+  Best Accuracy: 95.9%

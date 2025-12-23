@@ -1,0 +1,169 @@
+======================================================================
+Materials Project Comparison Report
+======================================================================
+
+Date: 2025-12-23 17:27:55
+Total matches found: 56
+
+----------------------------------------------------------------------
+Summary Statistics
+----------------------------------------------------------------------
+High matches (>=80): 33
+Good matches (60-80): 22
+Stable materials: 13
+Polar materials: 23
+
+----------------------------------------------------------------------
+Top 10 Best Matches
+----------------------------------------------------------------------
+
+Generated: O-H-Ga
+  MP Match: mp-626729 (Ga(HO)3)
+  Score: 89.7/100
+    - Lattice: 92.5
+    - Volume: 99.1
+    - Spacegroup: ✗ (MP: 148)
+  Properties:
+    - Stable: No
+    - Polar: No
+    - Band gap: 3.92 eV
+    - E above hull: 0.0130 eV/atom
+
+Generated: H-Ba-O
+  MP Match: mp-23904 (BaH4O3)
+  Score: 89.4/100
+    - Lattice: 92.6
+    - Volume: 97.3
+    - Spacegroup: ✗ (MP: 26)
+  Properties:
+    - Stable: Yes
+    - Polar: Yes
+    - Band gap: 4.26 eV
+    - E above hull: 0.0000 eV/atom
+
+Generated: O-Sc-Ti
+  MP Match: mp-675128 (Sc4Ti3O12)
+  Score: 89.4/100
+    - Lattice: 94.0
+    - Volume: 94.8
+    - Spacegroup: ✗ (MP: 2)
+  Properties:
+    - Stable: No
+    - Polar: No
+    - Band gap: 2.77 eV
+    - E above hull: 0.0368 eV/atom
+
+Generated: H-Ba-O
+  MP Match: mp-642653 (BaH2O3)
+  Score: 89.2/100
+    - Lattice: 92.9
+    - Volume: 95.6
+    - Spacegroup: ✗ (MP: 26)
+  Properties:
+    - Stable: No
+    - Polar: Yes
+    - Band gap: 0.00 eV
+    - E above hull: 0.3215 eV/atom
+
+Generated: H-Ba-O
+  MP Match: mp-626726 (BaH4O3)
+  Score: 89.0/100
+    - Lattice: 91.6
+    - Volume: 97.2
+    - Spacegroup: ✗ (MP: 11)
+  Properties:
+    - Stable: No
+    - Polar: No
+    - Band gap: 3.93 eV
+    - E above hull: 0.0034 eV/atom
+
+Generated: H-Ba-O
+  MP Match: mp-626735 (BaH4O3)
+  Score: 88.8/100
+    - Lattice: 92.0
+    - Volume: 95.6
+    - Spacegroup: ✗ (MP: 1)
+  Properties:
+    - Stable: No
+    - Polar: Yes
+    - Band gap: 3.98 eV
+    - E above hull: 0.0143 eV/atom
+
+Generated: H-Ba-O
+  MP Match: mp-642649 (BaH2O3)
+  Score: 88.4/100
+    - Lattice: 91.7
+    - Volume: 94.1
+    - Spacegroup: ✗ (MP: 11)
+  Properties:
+    - Stable: No
+    - Polar: No
+    - Band gap: 0.00 eV
+    - E above hull: 0.2818 eV/atom
+
+Generated: O-Sr-I-H
+  MP Match: mp-643385 (SrHIO)
+  Score: 87.8/100
+    - Lattice: 91.8
+    - Volume: 90.7
+    - Spacegroup: ✗ (MP: 62)
+  Properties:
+    - Stable: Yes
+    - Polar: No
+    - Band gap: 3.74 eV
+    - E above hull: 0.0000 eV/atom
+
+Generated: N-Cs-O
+  MP Match: mp-22628 (CsNO3)
+  Score: 87.3/100
+    - Lattice: 90.6
+    - Volume: 90.3
+    - Spacegroup: ✗ (MP: 59)
+  Properties:
+    - Stable: No
+    - Polar: No
+    - Band gap: 3.09 eV
+    - E above hull: 0.0044 eV/atom
+
+Generated: N-Ge-O
+  MP Match: mp-779457 (Ge2N2O)
+  Score: 86.5/100
+    - Lattice: 86.4
+    - Volume: 56.1
+    - Spacegroup: ✓ (MP: 1)
+  Properties:
+    - Stable: No
+    - Polar: Yes
+    - Band gap: 1.74 eV
+    - E above hull: 0.1073 eV/atom
+
+
+----------------------------------------------------------------------
+Potential Ferroelectric Candidates (Polar & Stable)
+----------------------------------------------------------------------
+
+mp-23904: BaH4O3
+  Point group: mm2, Spacegroup: 26
+  Band gap: 4.26 eV
+  Match score: 89.4
+
+mp-625136: CsHO
+  Point group: mm2, Spacegroup: 36
+  Band gap: 3.43 eV
+  Match score: 80.2
+
+mp-626417: CsH3O2
+  Point group: mm2, Spacegroup: 38
+  Band gap: 4.09 eV
+  Match score: 72.2
+
+mp-561851: CsNO3
+  Point group: 3, Spacegroup: 144
+  Band gap: 3.30 eV
+  Match score: 68.9
+
+mp-753401: Sc2TiO5
+  Point group: mm2, Spacegroup: 36
+  Band gap: 3.13 eV
+  Match score: 68.2
+
