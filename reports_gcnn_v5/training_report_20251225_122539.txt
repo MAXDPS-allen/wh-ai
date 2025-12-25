@@ -1,0 +1,14 @@
+============================================================
+GCNN v5 Ensemble Training Report
+============================================================
+
+Date: 2025-12-25 12:25:39.812323
+Models: 3 (ensemble)
+Positive Weight: 20.0
+Oversample Ratio: 3.0
+Optimal Threshold: 0.87
+
+Best Results:
+  Recall: 99.0%
+  Precision: 96.9%
+  Max AUC: 0.9972

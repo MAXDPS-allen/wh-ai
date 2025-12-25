@@ -1,0 +1,19 @@
+============================================================
+GCNN v3 Training Report (High Recall Optimization)
+============================================================
+
+Date: 2025-12-25 12:01:34
+Feature Dimension: 64
+Focal Loss: alpha=0.85, gamma=1.5
+Positive Weight: 10.0
+Optimal Threshold: 0.41
+Total Epochs: 113
+
+Final Metrics:
+  Validation Accuracy: 95.1%
+  Validation Recall: 81.8%
+  Validation Precision: 77.2%
+  Validation F1: 0.7943
+  Validation AUC: 0.9630
+
+Best Recall Achieved: 95.6%
