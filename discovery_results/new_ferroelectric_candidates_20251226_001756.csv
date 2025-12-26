@@ -1,0 +1,4 @@
+generated_elements,generated_formula,mp_id,mp_formula,mp_spacegroup,mp_point_group,mp_band_gap,mp_energy_above_hull,total_score,lattice_score,validity_score,is_new
+"['Cl', 'O']",Cl-O,mp-22869,ClO3,9,m,1.2103,0,85.93476550577056,95.29321297152114,55.0,True
+"['Li', 'P', 'Si']",Li-P-Si,mp-685991,Li5SiP3,9,m,1.3160999999999992,0,70.15315221525191,72.97156441476443,71.25,True
+"['N', 'Cs', 'Re']",N-Cs-Re,mp-1118943,Cs3Re2N5,80,4,0.3266,0,65.78502483910026,72.02847078323119,57.75,True
