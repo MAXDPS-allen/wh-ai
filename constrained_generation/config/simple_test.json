@@ -1,0 +1,33 @@
+{
+  "name": "简单测试约束",
+  "description": "测试用约束，仅限制元素数量",
+  
+  "constraints": {
+    "elements": {
+      "must_include": [],
+      "must_exclude": ["Pb", "Cd", "Hg"],
+      "min_elements": 2,
+      "max_elements": 5
+    },
+    "band_gap": {},
+    "spacegroup": {
+      "polar_only": false
+    },
+    "stability": {
+      "require_stable": false
+    },
+    "lattice": {},
+    "composition": {}
+  },
+  
+  "generation": {
+    "n_candidates": 100,
+    "n_iterations": 3,
+    "temperature": 1.0
+  },
+  
+  "output": {
+    "output_dir": "results/simple_test",
+    "generate_report": true
+  }
+}

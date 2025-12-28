@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ferroelectric Material Generation Constraints",
+  "description": "用户约束条件配置文件格式定义",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "任务名称"
+    },
+    "description": {
+      "type": "string",
+      "description": "任务描述"
+    },
+    "constraints": {
+      "type": "object",
+      "description": "约束条件",
+      "properties": {
+        "elements": {
+          "type": "object",
+          "description": "元素约束",
+          "properties": {
+            "must_include": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "必须包含的元素列表"
+            },
+            "must_exclude": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "必须排除的元素列表"
+            },
+            "allow_only": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "只允许的元素列表(白名单)"
+            },
+            "element_count": {
+              "type": "object",
+              "properties": {
+                "min": {"type": "integer", "minimum": 1},
+                "max": {"type": "integer", "maximum": 10}
+              },
+              "description": "元素种类数量范围"
+            }
+          }
+        },
+        "band_gap": {
+          "type": "object",
+          "description": "带隙约束 (eV)",
+          "properties": {
+            "min": {"type": "number", "minimum": 0},
+            "max": {"type": "number"},
+            "prefer": {
+              "type": "string",
+              "enum": ["wide", "narrow", "semiconductor", "insulator"],
+              "description": "偏好类型"
+            }
+          }
+        },
+        "spacegroup": {
+          "type": "object",
+          "description": "空间群约束",
+          "properties": {
+            "allowed": {
+              "type": "array",
+              "items": {"type": "integer", "minimum": 1, "maximum": 230},
+              "description": "允许的空间群编号列表"
+            },
+            "crystal_system": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["triclinic", "monoclinic", "orthorhombic", "tetragonal", "trigonal", "hexagonal", "cubic"]
+              },
+              "description": "允许的晶系"
+            },
+            "polar_only": {
+              "type": "boolean",
+              "description": "是否只要极性空间群"
+            }
+          }
+        },
+        "stability": {
+          "type": "object",
+          "description": "稳定性约束",
+          "properties": {
+            "require_stable": {
+              "type": "boolean",
+              "description": "是否要求热力学稳定(energy_above_hull=0)"
+            },
+            "max_energy_above_hull": {
+              "type": "number",
+              "minimum": 0,
+              "description": "最大允许的hull上方能量(eV/atom)"
+            }
+          }
+        },
+        "lattice": {
+          "type": "object",
+          "description": "晶格参数约束",
+          "properties": {
+            "volume": {
+              "type": "object",
+              "properties": {
+                "min": {"type": "number"},
+                "max": {"type": "number"}
+              },
+              "description": "体积范围 (Å³)"
+            },
+            "a": {"type": "object", "properties": {"min": {"type": "number"}, "max": {"type": "number"}}},
+            "b": {"type": "object", "properties": {"min": {"type": "number"}, "max": {"type": "number"}}},
+            "c": {"type": "object", "properties": {"min": {"type": "number"}, "max": {"type": "number"}}}
+          }
+        },
+        "composition": {
+          "type": "object",
+          "description": "成分约束",
+          "properties": {
+            "element_fractions": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "min": {"type": "number", "minimum": 0, "maximum": 1},
+                  "max": {"type": "number", "minimum": 0, "maximum": 1}
+                }
+              },
+              "description": "特定元素的原子分数范围"
+            }
+          }
+        }
+      }
+    },
+    "generation": {
+      "type": "object",
+      "description": "生成配置",
+      "properties": {
+        "max_iterations": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 20,
+          "description": "最大迭代次数"
+        },
+        "batch_size": {
+          "type": "integer",
+          "minimum": 10,
+          "default": 100,
+          "description": "每批生成数量"
+        },
+        "target_count": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 5,
+          "description": "目标发现数量"
+        },
+        "min_validity_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "default": 50,
+          "description": "最低合理性分数"
+        },
+        "min_match_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "default": 60,
+          "description": "最低MP匹配分数"
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "description": "输出配置",
+      "properties": {
+        "include_known_fe": {
+          "type": "boolean",
+          "default": true,
+          "description": "是否包含已知铁电材料"
+        },
+        "include_generated": {
+          "type": "boolean",
+          "default": true,
+          "description": "是否包含生成的候选材料"
+        },
+        "report_format": {
+          "type": "string",
+          "enum": ["txt", "html", "json", "all"],
+          "default": "all",
+          "description": "报告格式"
+        }
+      }
+    }
+  },
+  "required": ["name", "constraints"]
+}

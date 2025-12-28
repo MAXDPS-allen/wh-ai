@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-12-28T11:55:11.735691",
+  "constraint_name": "钛酸盐铁电材料搜索",
+  "known_materials": 20,
+  "generated_total": 500,
+  "generated_passed": 0,
+  "mp_matched": 0,
+  "iterations": [
+    {
+      "iteration": 1,
+      "generated": 100,
+      "passed": 0,
+      "pass_rate": 0.0,
+      "failure_reasons": {
+        "缺少必需元素": 100,
+        "其他": 189,
+        "包含禁止元素": 11
+      }
+    },
+    {
+      "iteration": 2,
+      "generated": 100,
+      "passed": 0,
+      "pass_rate": 0.0,
+      "failure_reasons": {
+        "缺少必需元素": 100,
+        "其他": 191,
+        "包含禁止元素": 9
+      }
+    },
+    {
+      "iteration": 3,
+      "generated": 100,
+      "passed": 0,
+      "pass_rate": 0.0,
+      "failure_reasons": {
+        "缺少必需元素": 100,
+        "其他": 187,
+        "包含禁止元素": 13
+      }
+    },
+    {
+      "iteration": 4,
+      "generated": 100,
+      "passed": 0,
+      "pass_rate": 0.0,
+      "failure_reasons": {
+        "缺少必需元素": 100,
+        "其他": 192,
+        "包含禁止元素": 7,
+        "元素数量过少": 1
+      }
+    },
+    {
+      "iteration": 5,
+      "generated": 100,
+      "passed": 0,
+      "pass_rate": 0.0,
+      "failure_reasons": {
+        "缺少必需元素": 100,
+        "其他": 183,
+        "包含禁止元素": 17
+      }
+    }
+  ]
+}

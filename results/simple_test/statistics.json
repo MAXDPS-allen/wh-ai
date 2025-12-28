@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-12-28T11:42:05.109715",
+  "constraint_name": "简单测试约束",
+  "known_materials": 0,
+  "generated_total": 300,
+  "generated_passed": 276,
+  "mp_matched": 0,
+  "iterations": [
+    {
+      "iteration": 1,
+      "generated": 100,
+      "passed": 89,
+      "pass_rate": 0.89,
+      "failure_reasons": {
+        "包含禁止元素": 10,
+        "其他": 11,
+        "元素数量过少": 1
+      }
+    },
+    {
+      "iteration": 2,
+      "generated": 100,
+      "passed": 90,
+      "pass_rate": 0.9,
+      "failure_reasons": {
+        "包含禁止元素": 10,
+        "其他": 10
+      }
+    },
+    {
+      "iteration": 3,
+      "generated": 100,
+      "passed": 97,
+      "pass_rate": 0.97,
+      "failure_reasons": {
+        "包含禁止元素": 2,
+        "其他": 3,
+        "元素数量过少": 1
+      }
+    }
+  ]
+}
