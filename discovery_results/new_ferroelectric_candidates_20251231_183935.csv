@@ -1,0 +1,7 @@
+generated_elements,generated_formula,mp_id,mp_formula,mp_spacegroup,mp_point_group,mp_band_gap,mp_energy_above_hull,total_score,lattice_score,validity_score,is_new
+"['H', 'O', 'Cl']",H-O-Cl,mp-2802611,H3ClO,160,3m,5.5012,0,79.14839320536795,86.13505359099224,58.5,True
+"['H', 'O', 'Cl', 'Cd']",H-O-Cl-Cd,mp-644222,CdHClO,186,6mm,2.4655,0,77.27464298766961,74.62784427979837,76.0,True
+"['S', 'Cs']",S-Cs,mp-1079600,Cs2S3,36,mm2,1.3635,0,74.73707884249342,84.46404232374793,57.75,True
+"['O', 'Bi', 'Sn']",O-Bi-Sn,mp-1198288,Sn2Bi2O7,144,3,2.667,0,67.39163210613461,75.44074233749963,71.5,True
+"['O', 'Tl', 'V', 'Se']",O-Tl-V-Se,mp-1208048,TlVSeO5,33,mm2,2.4187,0,65.34941041807483,73.82387009177752,82.0,True
+"['O', 'Tl', 'V', 'Se']",O-Tl-V-Se,mp-645272,TlV3(SeO6)2,173,6,2.304599999999999,0,64.36699950559267,70.93475596848766,82.0,True
