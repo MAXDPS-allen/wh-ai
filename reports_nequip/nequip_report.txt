@@ -1,0 +1,22 @@
+============================================================
+NequIP Ferroelectric Classifier Report
+============================================================
+
+Date: 2026-01-01 21:47:51
+
+Configuration:
+  - L_max: 2
+  - Radial Basis: 8
+  - Cutoff: 5.0 Å
+  - Layers: 4
+  - Node Dim: 64
+
+Performance:
+  - Accuracy: 0.9784
+  - Precision: 0.9590
+  - Recall: 0.9660
+  - F1 Score: 0.9625
+  - ROC-AUC: 0.9961
+  - Threshold: 0.9400
+
+============================================================
