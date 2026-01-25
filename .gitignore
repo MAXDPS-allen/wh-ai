@@ -1,1 +1,6 @@
 new_data/database-origin.zip
+
+# 忽略大型数据文件
+new_data/*.jsonl
+*.pyc
+__pycache__/

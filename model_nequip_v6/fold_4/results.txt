@@ -1,0 +1,6 @@
+Accuracy:  0.9826
+Precision: 0.5579
+Recall:    0.4015
+F1-Score:  0.4670
+ROC-AUC:   0.9440
+Threshold: 0.6600

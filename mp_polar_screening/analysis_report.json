@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-03T11:02:05.251037",
+  "total_polar_materials": 53598,
+  "total_ferroelectric_predicted": 8866,
+  "unique_ferroelectric_formulas": 6234,
+  "new_ferroelectric_predicted": 8183,
+  "unique_new_ferroelectric_formulas": 5775,
+  "training_set": {
+    "total_known_fe": 628,
+    "in_polar_materials": 628,
+    "not_in_polar_materials": 0,
+    "successfully_identified": 459,
+    "missed": 169,
+    "recall_on_known": 0.7308917197452229
+  }
+}

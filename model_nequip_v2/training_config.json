@@ -1,0 +1,6 @@
+{
+  "best_threshold": 0.01,
+  "best_f1": 0.9026582902192657,
+  "training_date": "2026-01-03 16:11:54",
+  "epochs_trained": 150
+}

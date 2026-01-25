@@ -1,0 +1,6 @@
+{
+  "positive_samples": 40,
+  "negative_samples": 40,
+  "feature_dimension": 256,
+  "extraction_status": "success"
+}

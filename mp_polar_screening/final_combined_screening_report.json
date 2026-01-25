@@ -1,0 +1,33 @@
+{
+  "analysis_date": "2026-01-03 20:22:26",
+  "total_materials_screened": 53598,
+  "training_positives": 508,
+  "training_negatives": 14044,
+  "known_fe_in_polar": 1093,
+  "confidence_levels": {
+    "high": {
+      "total_candidates": 2392,
+      "new_discoveries": 1661,
+      "unique_new_formulas": 1386,
+      "training_recall": 143.8976377952756
+    },
+    "medium_high": {
+      "total_candidates": 2683,
+      "new_discoveries": 1952,
+      "unique_new_formulas": 1633,
+      "training_recall": 143.8976377952756
+    },
+    "medium": {
+      "total_candidates": 5673,
+      "new_discoveries": 4942,
+      "unique_new_formulas": 4127,
+      "training_recall": 143.8976377952756
+    },
+    "low": {
+      "total_candidates": 18941,
+      "new_discoveries": 18210,
+      "unique_new_formulas": 13722,
+      "training_recall": 143.8976377952756
+    }
+  }
+}

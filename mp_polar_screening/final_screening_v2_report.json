@@ -1,0 +1,11 @@
+{
+  "threshold_gcnn": 0.9,
+  "threshold_nequip": 0.9,
+  "total_screened": 53598,
+  "total_candidates": 14821,
+  "known_fe_recovered": 731,
+  "new_discoveries": 14090,
+  "unique_new_formulas": 11287,
+  "known_fe_in_polar": 731,
+  "recall_rate": 100.0
+}

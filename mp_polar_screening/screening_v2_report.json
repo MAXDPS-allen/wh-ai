@@ -1,0 +1,14 @@
+{
+  "screening_date": "2026-01-03 18:46:46",
+  "total_materials_screened": 53598,
+  "gcnn_v6_threshold": 0.01,
+  "nequip_v2_threshold": 0.01,
+  "total_fe_candidates": 16944,
+  "new_discoveries": 14822,
+  "training_positives": 508,
+  "training_negatives": 14044,
+  "known_fe_in_polar": 731,
+  "known_fe_recalled": 603,
+  "known_fe_missed": 128,
+  "recall_rate": 82.48974008207935
+}
