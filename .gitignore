@@ -4,3 +4,6 @@ new_data/database-origin.zip
 new_data/*.jsonl
 *.pyc
 __pycache__/
+
+# 忽略缓存目录（包含大型预处理数据）
+cache_nequip_*/
