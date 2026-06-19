@@ -1,0 +1,38 @@
+{
+  "name": "无铅压电材料搜索",
+  "description": "搜索不含铅的压电/铁电材料，允许含有K、Na、Bi等元素",
+  "constraints": {
+    "elements": {
+      "must_exclude": ["Pb", "Cd", "Hg", "Tl"],
+      "allow_only": ["K", "Na", "Li", "Ba", "Sr", "Ca", "Bi", "Nb", "Ta", "Ti", "Zr", "O", "F"],
+      "element_count": {
+        "min": 3,
+        "max": 6
+      }
+    },
+    "band_gap": {
+      "min": 1.5,
+      "max": 5.0
+    },
+    "spacegroup": {
+      "polar_only": true,
+      "crystal_system": ["tetragonal", "orthorhombic", "trigonal"]
+    },
+    "stability": {
+      "require_stable": true,
+      "max_energy_above_hull": 0.025
+    }
+  },
+  "generation": {
+    "max_iterations": 20,
+    "batch_size": 150,
+    "target_count": 10,
+    "min_validity_score": 60,
+    "min_match_score": 70
+  },
+  "output": {
+    "include_known_fe": true,
+    "include_generated": true,
+    "report_format": "all"
+  }
+}

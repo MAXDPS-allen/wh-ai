@@ -1,0 +1,36 @@
+{
+  "name": "钛酸盐铁电材料搜索",
+  "description": "搜索含有Ti和O的钛酸盐型铁电材料，要求宽带隙(>2eV)和热力学稳定",
+  "constraints": {
+    "elements": {
+      "must_include": ["Ti", "O"],
+      "must_exclude": ["Pb", "Cd", "Hg", "As"],
+      "element_count": {
+        "min": 3,
+        "max": 5
+      }
+    },
+    "band_gap": {
+      "min": 2.0,
+      "prefer": "insulator"
+    },
+    "spacegroup": {
+      "polar_only": true
+    },
+    "stability": {
+      "require_stable": true
+    }
+  },
+  "generation": {
+    "max_iterations": 15,
+    "batch_size": 100,
+    "target_count": 5,
+    "min_validity_score": 55,
+    "min_match_score": 65
+  },
+  "output": {
+    "include_known_fe": true,
+    "include_generated": true,
+    "report_format": "all"
+  }
+}
