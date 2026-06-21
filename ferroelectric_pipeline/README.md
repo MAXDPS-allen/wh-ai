@@ -38,8 +38,24 @@
                         ┌─────────────▼───────────────┐
                         │  08 Full Pipeline           │
                         │  端到端发现流水线            │
-                        └─────────────────────────────┘
+                        └─────────────┬───────────────┘
+                                      │
+            ┌─────────────────────────┼─────────────────────────┐
+            │                         │                         │
+┌───────────▼────────────┐ ┌─────────▼──────────┐ ┌────────────▼───────────┐
+│ 11 Quality Screening   │ │ 10 Property        │ │ 09 DFT Validation      │
+│ 质量+金属性感知筛选    │ │ Regression         │ │ 第一性原理验证(VASP)   │
+│ (极性≠铁电, 物性评分)  │ │ Ps/能垒/带隙回归   │ │ 复刻 Nature 2020 工作流│
+└───────────┬────────────┘ └─────────┬──────────┘ └────────────┬───────────┘
+            └─────────────────────────┴─────────────────────────┘
+                                      │  闭环主动学习
+                          DFT 真值回流 → 重训 ML → 迭代
 ```
+
+> **v2 改进 (09/10/11)**：见 [`IMPROVEMENT_PLAN.md`](IMPROVEMENT_PLAN.md)。
+> 针对原管线"召回率不足、无物性预测、筛选只看极性"三大问题，新增物性回归
+> (`10`)、质量/金属性感知筛选 (`11`)、以及基于第一性原理的验证闭环 (`09`)。
+> 核心物理修正：**极性是铁电的必要不充分条件**（金属不可能是铁电；要的是优质铁电）。
 
 ## Directory Structure
 
@@ -88,9 +104,30 @@ ferroelectric_pipeline/
 │   ├── screen_database.py        # GCNN模型数据库筛选
 │   └── screen_database_nequip.py # NequIP模型数据库筛选
 │
-└── 08_full_pipeline/             # 端到端流水线
-    ├── full_discovery_pipeline.py     # 完整发现流程（生成→验证→MP比对→报告）
-    └── generate_materials_pipeline.py # 材料生成流水线（GAN生成→逆向设计→合理性验证）
+├── 08_full_pipeline/             # 端到端流水线
+│   ├── full_discovery_pipeline.py     # 完整发现流程（生成→验证→MP比对→报告）
+│   └── generate_materials_pipeline.py # 材料生成流水线（GAN生成→逆向设计→合理性验证）
+│
+│  ── v2 改进组件 (见 IMPROVEMENT_PLAN.md) ──
+├── 09_dft_validation/            # 第一性原理(DFT)验证, 复刻 Smidt et al. 2020 Nature 工作流
+│   ├── config.py                 # VASP/POTCAR/GPU节点/DFT参数集中配置
+│   ├── s1_find_nonpolar_parent.py # 找/校验高对称非极性母相(群-子群)
+│   ├── s2_interpolate.py         # 非极性↔极性 8个线性插值
+│   ├── s3_make_vasp_inputs.py    # relax/static/polarization(LCALCPOL) VASP输入
+│   ├── s4_run_cluster.py         # SSH派发到GPU节点g1-g9并行跑VASP
+│   ├── s5_postprocess.py         # Berry相极化分支跟踪→Ps/能垒/带隙+质量判据
+│   ├── validate.py               # 端到端编排器
+│   └── environment/setup_psp.sh  # POTCAR软链接成pymatgen布局
+│
+├── 10_property_regression/       # 铁电关键物性回归(新增): Ps/能垒/带隙
+│   ├── build_dataset.py          # 从DFT数据库(workflow_data.json)建回归数据集
+│   ├── featurize.py              # 结构→图/向量特征
+│   ├── train.py                  # 基线梯度提升(CV)
+│   ├── model_gnn.py / train_gnn.py # 几何感知GNN(多任务+不确定性)
+│   └── dataset/regression_dataset.csv  # 255条DFT标注 (可由build_dataset重建)
+│
+└── 11_quality_screening/         # 质量+物理感知筛选(新增)
+    └── quality_filter.py         # 硬过滤(极性/非金属/可切换)+物性质量评分
 ```
 
 ## Pipeline Stages
