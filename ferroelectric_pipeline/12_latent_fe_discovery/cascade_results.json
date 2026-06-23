@@ -1,0 +1,23 @@
+{
+  "premise": "Direct soft-mode eigenvector regression is ill-posed (72% of materials have degenerate softest optical modes). Try the user's cascade: simple classifier screen -> fine regression.",
+  "tier1_instability_classifier": {
+    "task": "predict whether a structure has a Gamma soft mode (softest optical freq < -0.1 THz) = latent ferroelectric / dynamical instability",
+    "data": "1534 Petretto phonon materials (8.9% unstable)",
+    "AUC": 0.77,
+    "balanced_acc": 0.70,
+    "top10pct_enrichment": 4.8,
+    "verdict": "WORKS - useful screening (top decile ~43% hit rate vs 9% base rate)"
+  },
+  "tier2_participation_tensor_regression": {
+    "task": "degeneracy-invariant per-atom soft-mode participation tensor S_i = sum_(soft) e_i (x) e_i (rank-2, equivariant)",
+    "model_tensor_frobenius_cos_best": 0.503,
+    "mean_tensor_baseline_cos": 0.667,
+    "participation_R2": "negative",
+    "verdict": "FAILS - stays below the mean-tensor baseline; fine mode shape not learnable from 1534 diverse materials"
+  },
+  "conclusion": "Consistent across ALL experiments: COARSE/scalar/classification tasks are learnable (instability presence AUC 0.77; band gap R2 0.6-0.7; Born charge Z* R2 0.95; switchability AUC 0.8), while FINE geometric/directional tasks are NOT (Ps vector, soft-mode eigenvector, participation tensor) with ~200-1500 diverse materials. The cascade Tier-1 screen is the usable discovery tool; Tier-2 fine regression needs active-learning data growth (DFT loop) or per-chemistry/per-prototype specialization.",
+  "usable_deliverables": [
+    "Equivariant latent-instability screening classifier (Tier-1): screen non-polar crystals for hidden soft modes (AUC 0.77, 4.8x enrichment)",
+    "Equivariant Born-charge -> quantum-free spontaneous polarization (Z* R2 0.95, 10k materials)"
+  ]
+}
