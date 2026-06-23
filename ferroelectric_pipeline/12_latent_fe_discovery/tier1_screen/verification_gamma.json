@@ -1,0 +1,59 @@
+[
+  {
+    "cid": "BCl3_mp-23184",
+    "supercell": [
+      1,
+      1,
+      1
+    ],
+    "n_displacements": 16,
+    "min_frequency_THz": -0.14219858699703455,
+    "imaginary_tolerance_THz": -0.1,
+    "dynamically_stable": false,
+    "phonon_mesh": [
+      20,
+      20,
+      20
+    ],
+    "tier1_score": 1.0,
+    "DFT_confirms": true
+  },
+  {
+    "cid": "Ba2CaMoO6_mp-19403",
+    "supercell": [
+      1,
+      1,
+      1
+    ],
+    "n_displacements": 5,
+    "min_frequency_THz": -3.471730036611128,
+    "imaginary_tolerance_THz": -0.1,
+    "dynamically_stable": false,
+    "phonon_mesh": [
+      20,
+      20,
+      20
+    ],
+    "tier1_score": 1.0,
+    "DFT_confirms": true
+  },
+  {
+    "cid": "Ac2O3_mp-11107",
+    "supercell": [
+      1,
+      1,
+      1
+    ],
+    "n_displacements": 5,
+    "min_frequency_THz": 0.20621856567385338,
+    "imaginary_tolerance_THz": -0.1,
+    "dynamically_stable": true,
+    "phonon_mesh": [
+      20,
+      20,
+      20
+    ],
+    "tier1_score": 0.0,
+    "DFT_confirms": true
+  }
+]

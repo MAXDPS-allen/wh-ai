@@ -19,7 +19,7 @@ VASP_PSP_DIR = str(Path(__file__).parent / "psp_mirror")
 POTCAR_FUNCTIONAL = "PBE"
 
 # 可用 GPU 计算节点 (免密 SSH)。运行前会探测在线与空闲显存。
-GPU_NODES = ["g3", "g4", "g6", "g1", "g7", "g2", "g5", "g8", "g9"]
+GPU_NODES = ["g3", "g4", "g6", "g1", "g7"]  # g8 lacks AVX512 (VASP SIGILL); g2/g5/g9 offline
 GPU_PER_NODE = 2                 # 每节点可用 GPU 数 (按需调整)
 MIN_FREE_VRAM_MB = 8000          # 派发任务所需的最小空闲显存
 
