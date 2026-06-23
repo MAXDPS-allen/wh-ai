@@ -1,0 +1,9 @@
+{
+  "infrastructure": "conda-forge fe_gpu env (glibc-2.17 compatible, CUDA 11.8) runs on g-nodes; ~50x faster than CPU",
+  "born_pretraining": {"materials": 10403, "Z_star_R2": 0.952, "note": "strong equivariant Born-charge model"},
+  "soft_mode_transfer": {"from_scratch_mode_cos": 0.10, "transfer_mode_cos": 0.18, "random_baseline": 0.10,
+    "verdict": "marginal; Born charges do not encode the lattice instability direction"},
+  "born_route_Ps": {"corr_with_DFT_Ps": 0.33, "R2": "negative",
+    "verdict": "linear Z*(parent).u breaks down for large polar distortions; needs path-integrated Z*"},
+  "conclusion": "GPU works; Born-charge head excellent; soft-mode discovery head needs phonon force-constant/eigenvector training data (not exposed in MP phonon summary)"
+}

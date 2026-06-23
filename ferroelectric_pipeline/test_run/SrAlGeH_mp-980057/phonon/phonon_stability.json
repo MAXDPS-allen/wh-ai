@@ -1,0 +1,17 @@
+{
+  "cid": "SrAlGeH_mp-980057",
+  "supercell": [
+    2,
+    2,
+    2
+  ],
+  "n_displacements": 8,
+  "min_frequency_THz": 0.17967364964718796,
+  "imaginary_tolerance_THz": -0.1,
+  "dynamically_stable": true,
+  "phonon_mesh": [
+    20,
+    20,
+    20
+  ]
+}

@@ -1,16 +1,30 @@
-# DFT 运行目录 (含 VASP POTCAR 受版权保护, 禁止提交) 与赝势软链接
+# ============ 大数据 / 受版权 / 可重生成 产物 (不提交) ============
+# DFT 运行目录 (含 VASP POTCAR 受版权保护) 与赝势软链接
 09_dft_validation/runs/
 09_dft_validation/psp_mirror/
+test_run/*/vasp/
+test_run/*/phonon/disps/
 
-# 回归数据集中间产物 (可由 build_dataset.py 重新生成)
+# 回归 / 物性数据集中间产物
 10_property_regression/dataset/structures/
 10_property_regression/dataset/graph_cache.pt
-10_property_regression/fe_property_gnn.pt
-
-# 筛选测试产物
+10_property_regression/*.pt
 11_quality_screening/test_input.json
 11_quality_screening/screened_candidates.json
+
+# 潜在铁电发现 (12) 的大数据 + 模型权重 + 缓存 (均可重生成)
+12_latent_fe_discovery/petretto/
+12_latent_fe_discovery/born_dataset/
+12_latent_fe_discovery/modes_data/
+12_latent_fe_discovery/dataset/structures/
+12_latent_fe_discovery/dataset/parents/
+12_latent_fe_discovery/*.pt
+12_latent_fe_discovery/*.log
+12_latent_fe_discovery/dbg*.py
+12_latent_fe_discovery/probe*.py
 
 # Python
 __pycache__/
 *.pyc
+
+# 保留: *.py 源码, *.md, 小的 *.json 结果, *.png 图

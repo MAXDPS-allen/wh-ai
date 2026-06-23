@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "GeTe_mp-938",
+    "mp_id": "mp-938",
+    "formula": "GeTe",
+    "band_gap": 0.565,
+    "e_above_hull": 0.0,
+    "nsites": 2,
+    "polar": "3m#160",
+    "nonpolar": "-3m#166",
+    "max_frac_disp": 0.0366
+  },
+  {
+    "cid": "CaAlSiH_mp-568177",
+    "mp_id": "mp-568177",
+    "formula": "CaAlSiH",
+    "band_gap": 0.369,
+    "e_above_hull": 0.0,
+    "nsites": 4,
+    "polar": "3m#156",
+    "nonpolar": "-6m2#187",
+    "max_frac_disp": 0.0838
+  },
+  {
+    "cid": "SrAlGeH_mp-980057",
+    "mp_id": "mp-980057",
+    "formula": "SrAlGeH",
+    "band_gap": 0.723,
+    "e_above_hull": 0.0,
+    "nsites": 4,
+    "polar": "3m#156",
+    "nonpolar": "-6m2#187",
+    "max_frac_disp": 0.1007
+  }
+]

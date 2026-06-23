@@ -1,0 +1,11 @@
+{
+  "method": "in-cell symmetrization (undistortion)",
+  "symprec_used": 1.0,
+  "polar_sg": 156,
+  "polar_pg": "3m",
+  "nonpolar_sg": 187,
+  "nonpolar_pg": "-6m2",
+  "max_frac_displacement": 0.10065077300613495,
+  "natoms": 4,
+  "valid": true
+}

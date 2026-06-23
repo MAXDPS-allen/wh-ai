@@ -23,13 +23,48 @@ GPU_NODES = ["g3", "g4", "g6", "g1", "g7", "g2", "g5", "g8", "g9"]
 GPU_PER_NODE = 2                 # 每节点可用 GPU 数 (按需调整)
 MIN_FREE_VRAM_MB = 8000          # 派发任务所需的最小空闲显存
 
-# 启动 VASP 前需 source 的环境 (nvhpc + cuda + hpcx)
+# 启动 VASP 前的环境 (nvhpc 2311 + cuda 11.8 + hpcx ompi)。
+# 完全显式设置所有库路径, 不依赖 hpcx-init.sh/hpcx_load (其跨节点行为不一致,
+# 曾导致部分计算因找不到 MPI/qd 库而以 exit 127 失败)。
+_NV = "/share/apps/nvhpc/2311/Linux_x86_64/23.11"
+_HPCX = f"{_NV}/comm_libs/11.8/hpcx/hpcx-2.14"
+_LIBS = ":".join([
+    f"{_NV}/compilers/lib",
+    f"{_NV}/compilers/extras/qd/lib",
+    f"{_NV}/cuda/11.8/lib64",
+    f"{_NV}/math_libs/11.8/lib64",
+    f"{_HPCX}/ompi/lib",
+    f"{_HPCX}/ucx/lib",
+    f"{_HPCX}/ucc/lib",
+])
+# 部分计算节点缺少系统库 libatomic.so.1; conda 环境的 lib 在共享盘上, 追加到
+# LD_LIBRARY_PATH 末尾补齐 (放末尾避免覆盖系统/nvhpc 的 libstdc++ 等)。
+_CONDA_LIB = "/share/home/caiby/miniforge3/envs/fe_dft/lib"
 VASP_ENV_SETUP = (
-    "module load 2>/dev/null; "
+    f"export PATH={_HPCX}/ompi/bin:{_NV}/compilers/bin:$PATH; "
+    f"export LD_LIBRARY_PATH={_LIBS}:$LD_LIBRARY_PATH:{_CONDA_LIB}; "
     "export OMP_NUM_THREADS=4; "
+    "export OMPI_MCA_btl_openib_allow_ib=0 OMPI_MCA_pml=ob1 OMPI_MCA_btl=self,vader; "
 )
-# MPI 启动器 (GPU 版按 GPU 数选择 rank)
-MPI_LAUNCHER = "mpirun -np {nproc}"
+# MPI 启动器 (hpcx mpirun 全路径; GPU 版每 rank 绑一张卡)
+_MPIRUN = f"{_HPCX}/ompi/bin/mpirun"
+MPI_LAUNCHER = _MPIRUN + " --allow-run-as-root -np {nproc}"
+
+# ---------------------------------------------------------------------------
+# CPU 后端 (用于 Berry 相极化 LCALCPOL)
+# ---------------------------------------------------------------------------
+# GPU (OpenACC) 构建的 VASP 在 LCALCPOL/Berry 相处挂起 (该特性 GPU 端不支持),
+# 故极化阶段改用 CPU 构建 + hpcx mpirun -np 1 (单 rank, 小胞足够; 多 rank 需
+# 完整 UCX PML 配置, 跨节点不稳)。仅在 AVX512 节点运行 (无 AVX512 节点会 SIGILL)。
+VASP_STD_CPU = "/share/apps/nvhpc_vasp/vasp.6.4.1/bin/vasp_std"
+CPU_NODES = ["g3", "g4", "g1", "g6", "g7"]     # 均含 avx512f
+VASP_ENV_SETUP_CPU = (
+    f"source {_HPCX}/hpcx-init.sh && hpcx_load 2>/dev/null; "
+    f"export LD_LIBRARY_PATH={_NV}/compilers/lib:{_NV}/compilers/extras/qd/lib:"
+    f"$LD_LIBRARY_PATH:{_CONDA_LIB}; "
+    "export OMP_NUM_THREADS=1; "
+)
+MPI_LAUNCHER_CPU = "mpirun -np {nproc}"         # 在 hpcx_load 后 mpirun 已在 PATH
 
 # conda 环境 (pymatgen 后处理)
 CONDA_SETUP = "source /share/home/caiby/miniforge3/etc/profile.d/conda.sh && conda activate fe_dft"

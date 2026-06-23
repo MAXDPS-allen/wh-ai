@@ -73,6 +73,46 @@ def write_static(struct: Structure, dest: Path):
     vis.write_input(str(dest))
 
 
+def write_phonon_force(struct: Structure, dest: Path):
+    """声子位移超胞的力计算: 粗 k 网格 (超胞已折叠 k 点) + 紧 EDIFF + 高精度力。
+    比 write_static 快得多, 且力足够精确。"""
+    incar = {
+        "ENCUT": config.ENCUT,
+        "EDIFF": 1e-5,                 # 力精度足够; 1e-6 在窄带隙超胞收敛过慢
+        "ISPIN": config.ISPIN,
+        "NSW": 0, "IBRION": -1,
+        "NELM": 200,
+        "ISMEAR": 0, "SIGMA": 0.05,
+        "ALGO": "Normal",              # 窄带隙体系比 Fast/RMM 更稳
+        "AMIX": 0.2, "BMIX": 0.0001,   # 抑制电荷振荡 (近金属混合)
+        "ADDGRID": True,               # 力精度
+        "LREAL": False,                # 倒空间投影, 力更准
+        "LCHARG": False, "LWAVE": False,
+        "PREC": "Accurate",
+    }
+    vis = MPStaticSet(struct, user_incar_settings=incar,
+                      user_kpoints_settings={"reciprocal_density": 30})  # 粗网格
+    vis.write_input(str(dest))
+
+
+def write_hse(struct: Structure, dest: Path, kdens: int = 64):
+    """HSE06 杂化泛函静态: 修正 PBE 带隙低估, 确认绝缘性。GPU 支持 HSE。"""
+    incar = {
+        "ENCUT": config.ENCUT,
+        "EDIFF": 1e-5,
+        "ISPIN": config.ISPIN,
+        "NSW": 0, "IBRION": -1,
+        "LHFCALC": True, "HFSCREEN": 0.2, "AEXX": 0.25,   # HSE06
+        "ALGO": "Damped", "TIME": 0.4,
+        "ISMEAR": 0, "SIGMA": 0.05,
+        "LORBIT": 11, "LCHARG": False, "LWAVE": False,
+        "PREC": "Accurate",
+    }
+    vis = MPStaticSet(struct, user_incar_settings=incar,
+                      user_kpoints_settings={"reciprocal_density": kdens})
+    vis.write_input(str(dest))
+
+
 def write_polarization(struct: Structure, dest: Path):
     """Berry 相极化: LCALCPOL=.TRUE. 自洽计算。"""
     incar = {

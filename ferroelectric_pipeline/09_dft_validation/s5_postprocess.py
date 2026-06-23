@@ -39,18 +39,37 @@ except Exception:
 # ---------------------------------------------------------------------------
 # 极化分支跟踪 + 物性 (核心)
 # ---------------------------------------------------------------------------
+def _polarization_quanta(structure):
+    """各晶轴的极化量子 |e|R_i/Ω → μC/cm²。"""
+    e_to_uCcm2 = 1602.176634
+    lat = structure.lattice
+    V = lat.volume
+    return np.array([np.linalg.norm(lat.matrix[i]) / V * e_to_uCcm2 for i in range(3)])
+
+
 def analyze_polarization(p_elecs, p_ions, structures):
-    """用 pymatgen 做同分支极化跟踪, 返回自发极化 (μC/cm²) 与路径。"""
+    """用 pymatgen 做同分支极化跟踪, 返回自发极化 (μC/cm²) 与路径。
+
+    极化只在"极化量子" (eR/Ω) 模意义下定义 (现代极化理论, Resta & Vanderbilt)。
+    同分支跟踪给出沿路径的绝热变化; 物理自发极化取该变化模量子的**最小代表值**
+    (避免量子缠绕导致的虚高数值, 是 Berry 相 Ps 的标准做法)。"""
     pol = Polarization(p_elecs, p_ions, structures)
     same_branch = pol.get_same_branch_polarization_data(
         convert_to_muC_per_cm2=True, all_in_polar=True)
-    Ps_vec = pol.get_polarization_change()           # 极性−非极性 (μC/cm²)
-    Ps_norm = pol.get_polarization_change_norm()
-    smoothness = pol.smoothness(convert_to_muC_per_cm2=True)  # 各分量样条偏差
+    Ps_vec = np.asarray(pol.get_polarization_change()).ravel()   # 原始同分支变化
+    smoothness = pol.smoothness(convert_to_muC_per_cm2=True)
+
+    # 量子约化: 每个分量减去最近整数倍量子 → 最小代表值 (物理 Ps)
+    quanta = _polarization_quanta(structures[-1])
+    Ps_vec_reduced = Ps_vec - np.round(Ps_vec / quanta) * quanta
+
     return {
         "same_branch_polarization": np.asarray(same_branch).tolist(),
-        "Ps_vector": np.asarray(Ps_vec).ravel().tolist(),
-        "Ps_norm": float(Ps_norm),
+        "Ps_vector_raw": Ps_vec.tolist(),
+        "Ps_norm_raw": float(np.linalg.norm(Ps_vec)),
+        "Ps_vector": Ps_vec_reduced.tolist(),                    # 量子约化 (物理值)
+        "Ps_norm": float(np.linalg.norm(Ps_vec_reduced)),
+        "polarization_quanta": quanta.tolist(),
         "polarization_smoothness": [float(s) for s in np.atleast_1d(smoothness)],
     }
 
@@ -133,8 +152,10 @@ def assemble(cid_dir: Path, p_elecs, p_ions, structures, energies, gaps):
                  pol["polarization_smoothness"], ene["energy_smoothness"], ene["dw_depth_meV"])
     result = {
         "cid": cid_dir.name,
-        "Ps_norm_uC_cm2": pol["Ps_norm"],
+        "Ps_norm_uC_cm2": pol["Ps_norm"],                 # 量子约化 (物理值)
         "Ps_vector": pol["Ps_vector"],
+        "Ps_norm_raw_uC_cm2": pol["Ps_norm_raw"],         # 原始同分支变化 (含量子缠绕)
+        "polarization_quanta": pol["polarization_quanta"],
         "gap_min_eV": gap_min,
         "gap_polar_eV": gap_polar,
         "bandgaps": [float(g) for g in gaps],

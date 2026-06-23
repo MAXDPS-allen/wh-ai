@@ -1,0 +1,15 @@
+{
+  "infrastructure_built": {
+    "gpu_env": "conda-forge fe_gpu (glibc-2.17 compatible, CUDA 11.8) runs on g-nodes ~50x CPU",
+    "born_charges": "10,403 materials (MP)",
+    "phonon_gamma_eigenvectors": "1,534 materials via Petretto DDB + ABINIT/anaddb (FULLY LOCAL, 0 errors) - bypasses flaky MP API",
+    "abi_env": "abipy 1.0.0 + abinit/anaddb (conda-forge)"
+  },
+  "results": {
+    "born_charge_model_Z*_R2": 0.952,
+    "soft_mode_eigenvector_cos": {"from_scratch": 0.10, "born_transfer": 0.18, "phonon_transfer": 0.17, "random_baseline": "~0.13"}
+  },
+  "key_finding": "Direct soft-mode EIGENVECTOR prediction is ILL-POSED: 72% of materials have (near-)degenerate softest optical modes, so the single-eigenvector target is arbitrary within the degenerate subspace -> all methods plateau near random regardless of data/pretraining.",
+  "principled_fix": "Predict the dynamical matrix (Hessian, equivariant rank-2, degeneracy-free); soft mode = its lowest eigenpair. Data already in hand (1534 DDBs give full force constants).",
+  "standalone_publishable": "Equivariant Born-charge -> quantum-free spontaneous polarization (Z* R2=0.95) + the polarization-quantum insight"
+}
