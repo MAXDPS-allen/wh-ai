@@ -1,0 +1,82 @@
+[
+  {
+    "mp_id": "mp-23184",
+    "formula": "BCl3",
+    "point_group": "6/m",
+    "spacegroup": "P6_3/m",
+    "band_gap": 4.72,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-19403",
+    "formula": "Ba2CaMoO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.26,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-18977",
+    "formula": "Ba2CaWO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.18,
+    "nsites": 10,
+    "e_above_hull": 0.003,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-19098",
+    "formula": "Ba2CaWO6",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 3.29,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-19182",
+    "formula": "Ba2CaWO6",
+    "point_group": "4/m",
+    "spacegroup": "I4/m",
+    "band_gap": 3.19,
+    "nsites": 10,
+    "e_above_hull": 0.0025,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-12640",
+    "formula": "Ba2DyNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.86,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-6192",
+    "formula": "Ba2DySbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.47,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-6653",
+    "formula": "Ba2ErNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.85,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  }
+]

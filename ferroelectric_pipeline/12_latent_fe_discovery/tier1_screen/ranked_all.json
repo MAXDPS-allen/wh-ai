@@ -1,0 +1,2002 @@
+[
+  {
+    "mp_id": "mp-23184",
+    "formula": "BCl3",
+    "point_group": "6/m",
+    "spacegroup": "P6_3/m",
+    "band_gap": 4.72,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-19403",
+    "formula": "Ba2CaMoO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.26,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-18977",
+    "formula": "Ba2CaWO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.18,
+    "nsites": 10,
+    "e_above_hull": 0.003,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-19098",
+    "formula": "Ba2CaWO6",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 3.29,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-19182",
+    "formula": "Ba2CaWO6",
+    "point_group": "4/m",
+    "spacegroup": "I4/m",
+    "band_gap": 3.19,
+    "nsites": 10,
+    "e_above_hull": 0.0025,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-12640",
+    "formula": "Ba2DyNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.86,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-6192",
+    "formula": "Ba2DySbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.47,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-6653",
+    "formula": "Ba2ErNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.85,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-6231",
+    "formula": "Ba2ErSbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.38,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-12641",
+    "formula": "Ba2HoNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.86,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-6687",
+    "formula": "Ba2HoSbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.42,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-12644",
+    "formula": "Ba2LuNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.85,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-1078185",
+    "formula": "Ba2LuSbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.24,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-18986",
+    "formula": "Ba2MgWO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.22,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-1091394",
+    "formula": "Ba2NaIO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.24,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-1079630",
+    "formula": "Ba2TaInO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.95,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-6265",
+    "formula": "Ba2TbSbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.51,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-12642",
+    "formula": "Ba2TmNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.86,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-548615",
+    "formula": "Ba2ZnWO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.37,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-559246",
+    "formula": "BaCrF6",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 1.61,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-22848",
+    "formula": "Cl2",
+    "point_group": "mmm",
+    "spacegroup": "Cmce",
+    "band_gap": 2.28,
+    "nsites": 4,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-1078258",
+    "formula": "Cs2AgBiCl6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.87,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-1079232",
+    "formula": "Cs2HgPdCl6",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mmm",
+    "band_gap": 1.39,
+    "nsites": 10,
+    "e_above_hull": 0.0017,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-1080041",
+    "formula": "Cs2NaBiCl6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.71,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 1.0
+  },
+  {
+    "mp_id": "mp-23225",
+    "formula": "BBr3",
+    "point_group": "6/m",
+    "spacegroup": "P6_3/m",
+    "band_gap": 3.84,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9999
+  },
+  {
+    "mp_id": "mp-1079705",
+    "formula": "Ba2LuTaO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.41,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9999
+  },
+  {
+    "mp_id": "mp-613910",
+    "formula": "BaNiF6",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 1.83,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9999
+  },
+  {
+    "mp_id": "mp-13687",
+    "formula": "Cs2KAgF6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 0.64,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9999
+  },
+  {
+    "mp_id": "mp-21879",
+    "formula": "Ba2CePtO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.72,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9998
+  },
+  {
+    "mp_id": "mp-13001",
+    "formula": "Ba2HoTaO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.38,
+    "nsites": 10,
+    "e_above_hull": 0.0008,
+    "instability_score": 0.9996
+  },
+  {
+    "mp_id": "mp-557133",
+    "formula": "Cs2KMoF6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 4.11,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9995
+  },
+  {
+    "mp_id": "mp-27725",
+    "formula": "AuI",
+    "point_group": "4/mmm",
+    "spacegroup": "P4_2/ncm",
+    "band_gap": 2.09,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.997
+  },
+  {
+    "mp_id": "mp-13000",
+    "formula": "Ba2HoTaO6",
+    "point_group": "4/m",
+    "spacegroup": "I4/m",
+    "band_gap": 3.45,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9947
+  },
+  {
+    "mp_id": "mp-18746",
+    "formula": "BaEr2CoO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 1.36,
+    "nsites": 9,
+    "e_above_hull": 0.0134,
+    "instability_score": 0.9906
+  },
+  {
+    "mp_id": "mp-6037",
+    "formula": "Ba2SmSbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.68,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.985
+  },
+  {
+    "mp_id": "mp-19996",
+    "formula": "Ba2GdNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.66,
+    "nsites": 10,
+    "e_above_hull": 0.0051,
+    "instability_score": 0.9821
+  },
+  {
+    "mp_id": "mp-1078725",
+    "formula": "Ba2UZnO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.79,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9426
+  },
+  {
+    "mp_id": "mp-1079839",
+    "formula": "Ba2GdMoO6",
+    "point_group": "-1",
+    "spacegroup": "P-1",
+    "band_gap": 0.91,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9401
+  },
+  {
+    "mp_id": "mp-580631",
+    "formula": "Cs2KTbCl6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 5.09,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9365
+  },
+  {
+    "mp_id": "mp-1080821",
+    "formula": "BaF3",
+    "point_group": "2/m",
+    "spacegroup": "P2_1/m",
+    "band_gap": 0.79,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9346
+  },
+  {
+    "mp_id": "mp-504699",
+    "formula": "Ba2UFeO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 0.52,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9174
+  },
+  {
+    "mp_id": "mp-13811",
+    "formula": "Ba2MgUO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.05,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9082
+  },
+  {
+    "mp_id": "mp-19248",
+    "formula": "BaSm2CoO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 1.47,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.9026
+  },
+  {
+    "mp_id": "mp-19138",
+    "formula": "BaNiO3",
+    "point_group": "6/mmm",
+    "spacegroup": "P6_3/mmc",
+    "band_gap": 1.51,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.8933
+  },
+  {
+    "mp_id": "mp-22881",
+    "formula": "CdCl2",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 3.52,
+    "nsites": 3,
+    "e_above_hull": 0.0,
+    "instability_score": 0.8776
+  },
+  {
+    "mp_id": "mp-22531",
+    "formula": "Ba2GdNbO6",
+    "point_group": "4/m",
+    "spacegroup": "I4/m",
+    "band_gap": 2.71,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.8311
+  },
+  {
+    "mp_id": "mp-6254",
+    "formula": "Ba2TbNbO6",
+    "point_group": "4/m",
+    "spacegroup": "I4/m",
+    "band_gap": 2.99,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.8047
+  },
+  {
+    "mp_id": "mp-19093",
+    "formula": "Ba2UNiO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.62,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.7691
+  },
+  {
+    "mp_id": "mp-1095110",
+    "formula": "Ba2SmMoO6",
+    "point_group": "4/m",
+    "spacegroup": "I4/m",
+    "band_gap": 0.91,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.6678
+  },
+  {
+    "mp_id": "mp-1079871",
+    "formula": "Cs2KSmCl6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 5.06,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.6671
+  },
+  {
+    "mp_id": "mp-1101094",
+    "formula": "Cs2CeCl6",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 1.82,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.6498
+  },
+  {
+    "mp_id": "mp-19118",
+    "formula": "BaNd2CoO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 1.41,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.6464
+  },
+  {
+    "mp_id": "mp-19164",
+    "formula": "BaDy2CoO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 1.39,
+    "nsites": 9,
+    "e_above_hull": 0.0037,
+    "instability_score": 0.5913
+  },
+  {
+    "mp_id": "mp-22184",
+    "formula": "Ba2SmNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.89,
+    "nsites": 10,
+    "e_above_hull": 0.0004,
+    "instability_score": 0.5068
+  },
+  {
+    "mp_id": "mp-18763",
+    "formula": "BaNd2NiO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 2.0,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.5061
+  },
+  {
+    "mp_id": "mp-570687",
+    "formula": "AgCl",
+    "point_group": "2/m",
+    "spacegroup": "P2_1/m",
+    "band_gap": 0.87,
+    "nsites": 4,
+    "e_above_hull": 0.0113,
+    "instability_score": 0.4182
+  },
+  {
+    "mp_id": "mp-19199",
+    "formula": "BaSm2NiO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 2.24,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.322
+  },
+  {
+    "mp_id": "mp-545603",
+    "formula": "Ba2BiSbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.66,
+    "nsites": 10,
+    "e_above_hull": 0.0088,
+    "instability_score": 0.2566
+  },
+  {
+    "mp_id": "mp-20194",
+    "formula": "CeO2",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.0,
+    "nsites": 3,
+    "e_above_hull": 0.0,
+    "instability_score": 0.2186
+  },
+  {
+    "mp_id": "mp-19078",
+    "formula": "Ba2SrWO6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 3.36,
+    "nsites": 10,
+    "e_above_hull": 0.001,
+    "instability_score": 0.2104
+  },
+  {
+    "mp_id": "mp-8290",
+    "formula": "BaSnF6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 4.96,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.1782
+  },
+  {
+    "mp_id": "mp-22993",
+    "formula": "AgClO4",
+    "point_group": "-42m",
+    "spacegroup": "I-42m",
+    "band_gap": 2.61,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.1306
+  },
+  {
+    "mp_id": "mp-568690",
+    "formula": "CdBr2",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 2.88,
+    "nsites": 3,
+    "e_above_hull": 0.0001,
+    "instability_score": 0.1084
+  },
+  {
+    "mp_id": "mp-560956",
+    "formula": "Cs2KCrF6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 4.29,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0998
+  },
+  {
+    "mp_id": "mp-14292",
+    "formula": "Ba2NdSbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.67,
+    "nsites": 10,
+    "e_above_hull": 0.0045,
+    "instability_score": 0.0938
+  },
+  {
+    "mp_id": "mp-18802",
+    "formula": "BaPr2NiO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 2.17,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0783
+  },
+  {
+    "mp_id": "mp-568301",
+    "formula": "BiBr3",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 2.84,
+    "nsites": 8,
+    "e_above_hull": 0.0023,
+    "instability_score": 0.07
+  },
+  {
+    "mp_id": "mp-19332",
+    "formula": "BaGd2NiO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 0.94,
+    "nsites": 9,
+    "e_above_hull": 0.0057,
+    "instability_score": 0.0645
+  },
+  {
+    "mp_id": "mp-19325",
+    "formula": "BaY2NiO5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 2.3,
+    "nsites": 9,
+    "e_above_hull": 0.0136,
+    "instability_score": 0.0624
+  },
+  {
+    "mp_id": "mp-27910",
+    "formula": "Bi2Te2S",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 0.62,
+    "nsites": 5,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0547
+  },
+  {
+    "mp_id": "mp-1078250",
+    "formula": "Cs2AgBiBr6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.35,
+    "nsites": 10,
+    "e_above_hull": 0.0055,
+    "instability_score": 0.0492
+  },
+  {
+    "mp_id": "mp-30139",
+    "formula": "BeBr2",
+    "point_group": "mmm",
+    "spacegroup": "Ibam",
+    "band_gap": 5.18,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0326
+  },
+  {
+    "mp_id": "mp-18995",
+    "formula": "Ba2FeMoO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.67,
+    "nsites": 10,
+    "e_above_hull": 0.0033,
+    "instability_score": 0.0302
+  },
+  {
+    "mp_id": "mp-1079603",
+    "formula": "BaCdPF",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 1.15,
+    "nsites": 8,
+    "e_above_hull": 0.0087,
+    "instability_score": 0.03
+  },
+  {
+    "mp_id": "mp-18764",
+    "formula": "Ba2SrWO6",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 3.25,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0293
+  },
+  {
+    "mp_id": "mp-541837",
+    "formula": "Bi2Se3",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 0.55,
+    "nsites": 5,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0282
+  },
+  {
+    "mp_id": "mp-10731",
+    "formula": "Ba2PrSbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.69,
+    "nsites": 10,
+    "e_above_hull": 0.0064,
+    "instability_score": 0.0259
+  },
+  {
+    "mp_id": "mp-1019544",
+    "formula": "BaZrO3",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mcm",
+    "band_gap": 3.12,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0253
+  },
+  {
+    "mp_id": "mp-1095151",
+    "formula": "BaCdAsF",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 0.96,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0214
+  },
+  {
+    "mp_id": "mp-567296",
+    "formula": "CdI2",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 2.3,
+    "nsites": 9,
+    "e_above_hull": 0.0002,
+    "instability_score": 0.0118
+  },
+  {
+    "mp_id": "mp-23154",
+    "formula": "Br",
+    "point_group": "mmm",
+    "spacegroup": "Cmce",
+    "band_gap": 1.35,
+    "nsites": 4,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0096
+  },
+  {
+    "mp_id": "mp-5606",
+    "formula": "AlTlF4",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/mmm",
+    "band_gap": 4.25,
+    "nsites": 6,
+    "e_above_hull": 0.0065,
+    "instability_score": 0.0071
+  },
+  {
+    "mp_id": "mp-540729",
+    "formula": "Cs2KCoF6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.01,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0067
+  },
+  {
+    "mp_id": "mp-19852",
+    "formula": "Ba2UMnO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.01,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0063
+  },
+  {
+    "mp_id": "mp-2998",
+    "formula": "BaTiO3",
+    "point_group": "m-3m",
+    "spacegroup": "Pm-3m",
+    "band_gap": 1.67,
+    "nsites": 10,
+    "e_above_hull": 0.0148,
+    "instability_score": 0.0053
+  },
+  {
+    "mp_id": "mp-3960",
+    "formula": "CaUO4",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 2.12,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0043
+  },
+  {
+    "mp_id": "mp-570379",
+    "formula": "Cs2LiLuCl6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 5.34,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0037
+  },
+  {
+    "mp_id": "mp-29666",
+    "formula": "Bi2Te2Se",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 0.54,
+    "nsites": 5,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0033
+  },
+  {
+    "mp_id": "mp-567259",
+    "formula": "CdI2",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 2.4,
+    "nsites": 3,
+    "e_above_hull": 0.0005,
+    "instability_score": 0.0027
+  },
+  {
+    "mp_id": "mp-556094",
+    "formula": "AgBiSCl2",
+    "point_group": "mmm",
+    "spacegroup": "Cmcm",
+    "band_gap": 1.08,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.002
+  },
+  {
+    "mp_id": "mp-9579",
+    "formula": "AlTlSe2",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mcm",
+    "band_gap": 0.58,
+    "nsites": 8,
+    "e_above_hull": 0.0091,
+    "instability_score": 0.0014
+  },
+  {
+    "mp_id": "mp-1077866",
+    "formula": "BaZnBO3F",
+    "point_group": "-6",
+    "spacegroup": "P-6",
+    "band_gap": 3.62,
+    "nsites": 7,
+    "e_above_hull": 0.0203,
+    "instability_score": 0.0008
+  },
+  {
+    "mp_id": "mp-568289",
+    "formula": "CdI2",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 2.36,
+    "nsites": 9,
+    "e_above_hull": 0.0021,
+    "instability_score": 0.0008
+  },
+  {
+    "mp_id": "mp-3442",
+    "formula": "CaTiO3",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mcm",
+    "band_gap": 2.24,
+    "nsites": 10,
+    "e_above_hull": 0.0174,
+    "instability_score": 0.0003
+  },
+  {
+    "mp_id": "mp-25469",
+    "formula": "AlCl3",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 5.27,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0002
+  },
+  {
+    "mp_id": "mp-552200",
+    "formula": "Ba2TaBiO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.68,
+    "nsites": 10,
+    "e_above_hull": 0.0144,
+    "instability_score": 0.0002
+  },
+  {
+    "mp_id": "mp-559454",
+    "formula": "Cs2KFeF6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 4.14,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0002
+  },
+  {
+    "mp_id": "mp-1071955",
+    "formula": "AlPS4",
+    "point_group": "222",
+    "spacegroup": "I222",
+    "band_gap": 2.77,
+    "nsites": 6,
+    "e_above_hull": 0.0051,
+    "instability_score": 0.0001
+  },
+  {
+    "mp_id": "mp-12637",
+    "formula": "Ba2NdNbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.86,
+    "nsites": 10,
+    "e_above_hull": 0.0156,
+    "instability_score": 0.0001
+  },
+  {
+    "mp_id": "mp-1079113",
+    "formula": "Ba2SrUO6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 2.26,
+    "nsites": 10,
+    "e_above_hull": 0.009,
+    "instability_score": 0.0001
+  },
+  {
+    "mp_id": "mp-561079",
+    "formula": "CdBiS2Br",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 1.73,
+    "nsites": 10,
+    "e_above_hull": 0.0177,
+    "instability_score": 0.0001
+  },
+  {
+    "mp_id": "mp-610706",
+    "formula": "Cs2CoF6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.27,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0001
+  },
+  {
+    "mp_id": "mp-560861",
+    "formula": "Cs2KMnF6",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mmm",
+    "band_gap": 1.74,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0001
+  },
+  {
+    "mp_id": "mp-555223",
+    "formula": "Cs2MnF5",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/mmm",
+    "band_gap": 1.32,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0001
+  },
+  {
+    "mp_id": "mp-11107",
+    "formula": "Ac2O3",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 3.52,
+    "nsites": 5,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-27972",
+    "formula": "AcBr3",
+    "point_group": "6/m",
+    "spacegroup": "P6_3/m",
+    "band_gap": 4.1,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-30274",
+    "formula": "AcBrO",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 4.24,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-27971",
+    "formula": "AcCl3",
+    "point_group": "6/m",
+    "spacegroup": "P6_3/m",
+    "band_gap": 5.09,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-30273",
+    "formula": "AcClO",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 4.45,
+    "nsites": 6,
+    "e_above_hull": 0.0017,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-567809",
+    "formula": "AgI",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 1.6,
+    "nsites": 4,
+    "e_above_hull": 0.0064,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-5470",
+    "formula": "AgPS3",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 1.32,
+    "nsites": 10,
+    "e_above_hull": 0.0047,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-7048",
+    "formula": "Al2O3",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 4.46,
+    "nsites": 10,
+    "e_above_hull": 0.0172,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-9254",
+    "formula": "Al2Te5",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 1.05,
+    "nsites": 7,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-28901",
+    "formula": "AlFeF5",
+    "point_group": "mmm",
+    "spacegroup": "Immm",
+    "band_gap": 3.39,
+    "nsites": 7,
+    "e_above_hull": 0.0102,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1182867",
+    "formula": "AlWO4",
+    "point_group": "mmm",
+    "spacegroup": "Cmmm",
+    "band_gap": 2.98,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1078443",
+    "formula": "As2Se3",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 0.6,
+    "nsites": 10,
+    "e_above_hull": 0.0273,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-23218",
+    "formula": "AsI3",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 2.25,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-947",
+    "formula": "Au2S",
+    "point_group": "m-3m",
+    "spacegroup": "Pn-3m",
+    "band_gap": 1.91,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-505366",
+    "formula": "AuBr",
+    "point_group": "4/mmm",
+    "spacegroup": "P4_2/ncm",
+    "band_gap": 1.7,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-570140",
+    "formula": "AuBr",
+    "point_group": "4/mmm",
+    "spacegroup": "I4_1/amd",
+    "band_gap": 1.99,
+    "nsites": 8,
+    "e_above_hull": 0.0178,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-32780",
+    "formula": "AuCl",
+    "point_group": "4/mmm",
+    "spacegroup": "I4_1/amd",
+    "band_gap": 1.91,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-23189",
+    "formula": "BI3",
+    "point_group": "6/m",
+    "spacegroup": "P6_3/m",
+    "band_gap": 2.69,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-984",
+    "formula": "BN",
+    "point_group": "6/mmm",
+    "spacegroup": "P6_3/mmc",
+    "band_gap": 4.48,
+    "nsites": 4,
+    "e_above_hull": 0.0057,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-7991",
+    "formula": "BN",
+    "point_group": "6/mmm",
+    "spacegroup": "P6_3/mmc",
+    "band_gap": 4.27,
+    "nsites": 4,
+    "e_above_hull": 0.0077,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-27724",
+    "formula": "BPS4",
+    "point_group": "222",
+    "spacegroup": "I222",
+    "band_gap": 2.28,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-4255",
+    "formula": "Ba(CuS)2",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mmm",
+    "band_gap": 0.5,
+    "nsites": 5,
+    "e_above_hull": 0.0062,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-545659",
+    "formula": "Ba2DyBiO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.73,
+    "nsites": 10,
+    "e_above_hull": 0.0026,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1078409",
+    "formula": "Ba2LaBiO6",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 1.83,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1078394",
+    "formula": "Ba2LuBiO6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 1.45,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1018099",
+    "formula": "Ba2NCl",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 1.11,
+    "nsites": 4,
+    "e_above_hull": 0.0157,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-546321",
+    "formula": "Ba2NdBiO6",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 1.68,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-6167",
+    "formula": "Ba2NdNbO6",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 2.99,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-6122",
+    "formula": "Ba2NdSbO6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 3.7,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-552176",
+    "formula": "Ba2PrNbO6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 3.05,
+    "nsites": 10,
+    "e_above_hull": 0.0008,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-6692",
+    "formula": "Ba2PrSbO6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 3.71,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-552191",
+    "formula": "Ba2TbBiO6",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 1.73,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1079615",
+    "formula": "Ba2UCdO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.85,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1080842",
+    "formula": "Ba2UPbO6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 1.19,
+    "nsites": 10,
+    "e_above_hull": 0.0282,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1078636",
+    "formula": "Ba2ZnAs2",
+    "point_group": "mmm",
+    "spacegroup": "Ibam",
+    "band_gap": 0.64,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-7739",
+    "formula": "Ba2ZnF6",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mmm",
+    "band_gap": 4.74,
+    "nsites": 9,
+    "e_above_hull": 0.0267,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1086652",
+    "formula": "BaAgSF",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 1.43,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-4887",
+    "formula": "BaCeN2",
+    "point_group": "6/mmm",
+    "spacegroup": "P6_3/mmc",
+    "band_gap": 0.69,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-3316",
+    "formula": "BaCeO3",
+    "point_group": "mmm",
+    "spacegroup": "Imma",
+    "band_gap": 2.46,
+    "nsites": 10,
+    "e_above_hull": 0.0006,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-4900",
+    "formula": "BaCeO3",
+    "point_group": "-3m",
+    "spacegroup": "R-3c",
+    "band_gap": 2.45,
+    "nsites": 10,
+    "e_above_hull": 0.0025,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1080650",
+    "formula": "BaCuSF",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 1.62,
+    "nsites": 8,
+    "e_above_hull": 0.004,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-6504",
+    "formula": "BaMg(CO3)2",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 4.08,
+    "nsites": 10,
+    "e_above_hull": 0.0051,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1182061",
+    "formula": "BaNaH6Ir",
+    "point_group": "-43m",
+    "spacegroup": "F-43m",
+    "band_gap": 3.22,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1008500",
+    "formula": "BaO",
+    "point_group": "6/mmm",
+    "spacegroup": "P6_3/mmc",
+    "band_gap": 2.36,
+    "nsites": 4,
+    "e_above_hull": 0.0189,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-8234",
+    "formula": "BaTe3",
+    "point_group": "-42m",
+    "spacegroup": "P-42_1m",
+    "band_gap": 0.82,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-548469",
+    "formula": "BaZnSO",
+    "point_group": "mmm",
+    "spacegroup": "Cmcm",
+    "band_gap": 2.24,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-570886",
+    "formula": "BeI2",
+    "point_group": "mmm",
+    "spacegroup": "Ibam",
+    "band_gap": 4.07,
+    "nsites": 6,
+    "e_above_hull": 0.0067,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1078366",
+    "formula": "Bi2S2O",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 0.94,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-27891",
+    "formula": "Bi2SO2",
+    "point_group": "mmm",
+    "spacegroup": "Pnnm",
+    "band_gap": 0.83,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-27743",
+    "formula": "BiF5",
+    "point_group": "4/m",
+    "spacegroup": "I4/m",
+    "band_gap": 1.84,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-568388",
+    "formula": "BiI",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 0.83,
+    "nsites": 8,
+    "e_above_hull": 0.027,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-22849",
+    "formula": "BiI3",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 2.53,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-569157",
+    "formula": "BiI3",
+    "point_group": "-3m",
+    "spacegroup": "P-31m",
+    "band_gap": 2.48,
+    "nsites": 8,
+    "e_above_hull": 0.0026,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-23074",
+    "formula": "BiOF",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 3.13,
+    "nsites": 6,
+    "e_above_hull": 0.0044,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-2516584",
+    "formula": "C",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 1.43,
+    "nsites": 4,
+    "e_above_hull": 0.0023,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1018630",
+    "formula": "Ca(BeAs)2",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 0.66,
+    "nsites": 5,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1017548",
+    "formula": "Ca(BeP)2",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 0.74,
+    "nsites": 5,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-23879",
+    "formula": "Ca(HO)2",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 4.12,
+    "nsites": 5,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1079896",
+    "formula": "Ca2H6Ru",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 2.45,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-7223",
+    "formula": "Ca3AsN",
+    "point_group": "m-3m",
+    "spacegroup": "Pm-3m",
+    "band_gap": 0.72,
+    "nsites": 5,
+    "e_above_hull": 0.008,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1047",
+    "formula": "Ca3N2",
+    "point_group": "-3m",
+    "spacegroup": "R-3c",
+    "band_gap": 0.78,
+    "nsites": 10,
+    "e_above_hull": 0.0167,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-917",
+    "formula": "CaC2",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 2.31,
+    "nsites": 6,
+    "e_above_hull": 0.0002,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1575",
+    "formula": "CaC2",
+    "point_group": "2/m",
+    "spacegroup": "C2/c",
+    "band_gap": 2.04,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-2482",
+    "formula": "CaC2",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mmm",
+    "band_gap": 1.34,
+    "nsites": 3,
+    "e_above_hull": 0.0029,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1079918",
+    "formula": "CaCO3",
+    "point_group": "-1",
+    "spacegroup": "P-1",
+    "band_gap": 4.86,
+    "nsites": 10,
+    "e_above_hull": 0.0067,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-557519",
+    "formula": "CaCrF6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 1.82,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-24422",
+    "formula": "CaHBr",
+    "point_group": "4/mmm",
+    "spacegroup": "P4/nmm",
+    "band_gap": 4.12,
+    "nsites": 6,
+    "e_above_hull": 0.0248,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-30031",
+    "formula": "CaI2",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 3.9,
+    "nsites": 3,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-28534",
+    "formula": "CaInBr3",
+    "point_group": "mmm",
+    "spacegroup": "Cmcm",
+    "band_gap": 3.14,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-634859",
+    "formula": "CaO2",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mmm",
+    "band_gap": 2.78,
+    "nsites": 3,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-4784",
+    "formula": "CaPtO3",
+    "point_group": "mmm",
+    "spacegroup": "Cmcm",
+    "band_gap": 1.28,
+    "nsites": 10,
+    "e_above_hull": 0.0105,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-27624",
+    "formula": "CaV2O6",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 2.88,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1078391",
+    "formula": "CaZn(CO3)2",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 3.94,
+    "nsites": 10,
+    "e_above_hull": 0.0013,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1025377",
+    "formula": "Cd(AgI2)2",
+    "point_group": "-42m",
+    "spacegroup": "I-42m",
+    "band_gap": 1.77,
+    "nsites": 7,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-625548",
+    "formula": "Cd(HO)2",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 1.64,
+    "nsites": 5,
+    "e_above_hull": 0.0045,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-7904",
+    "formula": "CdP4",
+    "point_group": "2/m",
+    "spacegroup": "P2_1/c",
+    "band_gap": 0.5,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-5328",
+    "formula": "CdPS3",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 1.76,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1079559",
+    "formula": "CdPSe3",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 1.21,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-559588",
+    "formula": "CdSbS2Br",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 1.53,
+    "nsites": 10,
+    "e_above_hull": 0.0136,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1069558",
+    "formula": "Ce2SeN2",
+    "point_group": "-3m",
+    "spacegroup": "P-3m1",
+    "band_gap": 0.96,
+    "nsites": 5,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-19292",
+    "formula": "Co(AsO3)2",
+    "point_group": "-3m",
+    "spacegroup": "P-31m",
+    "band_gap": 2.07,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-19178",
+    "formula": "CoAgO2",
+    "point_group": "6/mmm",
+    "spacegroup": "P6_3/mmc",
+    "band_gap": 1.33,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-555908",
+    "formula": "CoF2",
+    "point_group": "4/mmm",
+    "spacegroup": "P4_2/mnm",
+    "band_gap": 2.27,
+    "nsites": 6,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-27913",
+    "formula": "CoHO2",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 2.1,
+    "nsites": 4,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-556492",
+    "formula": "CoPtF6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 1.94,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-561319",
+    "formula": "CoSnF6",
+    "point_group": "-3",
+    "spacegroup": "R-3",
+    "band_gap": 2.65,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-19378",
+    "formula": "CrAgO2",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 1.69,
+    "nsites": 4,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-505562",
+    "formula": "CrCuO2",
+    "point_group": "6/mmm",
+    "spacegroup": "P6_3/mmc",
+    "band_gap": 1.86,
+    "nsites": 8,
+    "e_above_hull": 0.0006,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-510625",
+    "formula": "CrCuO2",
+    "point_group": "-3m",
+    "spacegroup": "R-3m",
+    "band_gap": 1.56,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-560338",
+    "formula": "CrF3",
+    "point_group": "-3m",
+    "spacegroup": "R-3c",
+    "band_gap": 3.05,
+    "nsites": 8,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-6968",
+    "formula": "Cs2KCuF6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 0.9,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-1080534",
+    "formula": "Cs2Li3I5",
+    "point_group": "2/m",
+    "spacegroup": "C2/m",
+    "band_gap": 3.86,
+    "nsites": 10,
+    "e_above_hull": 0.0115,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-23752",
+    "formula": "Cs2MgH4",
+    "point_group": "4/mmm",
+    "spacegroup": "I4/mmm",
+    "band_gap": 3.0,
+    "nsites": 7,
+    "e_above_hull": 0.0069,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-557912",
+    "formula": "Cs2MnF6",
+    "point_group": "m-3m",
+    "spacegroup": "Fm-3m",
+    "band_gap": 3.38,
+    "nsites": 9,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-505034",
+    "formula": "Cs2MnS2",
+    "point_group": "mmm",
+    "spacegroup": "Ibam",
+    "band_gap": 1.19,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  },
+  {
+    "mp_id": "mp-610744",
+    "formula": "Cs2MnTe2",
+    "point_group": "mmm",
+    "spacegroup": "Ibam",
+    "band_gap": 1.06,
+    "nsites": 10,
+    "e_above_hull": 0.0,
+    "instability_score": 0.0
+  }
+]

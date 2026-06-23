@@ -113,6 +113,23 @@ def write_hse(struct: Structure, dest: Path, kdens: int = 64):
     vis.write_input(str(dest))
 
 
+def write_dfpt_gamma(struct: Structure, dest: Path):
+    """DFPT (IBRION=8) Γ 点声子: 一次计算给出 Γ 声子频率+本征矢。
+    高对称相在对称约束几何下力为零, 可直接算软模 (虚频)。"""
+    incar = {
+        "ENCUT": config.ENCUT,
+        "EDIFF": 1e-7,                 # 声子需很紧的电子收敛
+        "ISPIN": config.ISPIN,
+        "IBRION": 8, "NSW": 1, "NWRITE": 3,
+        "ISMEAR": 0, "SIGMA": 0.05,
+        "LREAL": False, "ADDGRID": True, "PREC": "Accurate",
+        "LCHARG": False, "LWAVE": False,
+    }
+    vis = MPStaticSet(struct, user_incar_settings=incar,
+                      user_kpoints_settings={"reciprocal_density": 50})
+    vis.write_input(str(dest))
+
+
 def write_polarization(struct: Structure, dest: Path):
     """Berry 相极化: LCALCPOL=.TRUE. 自洽计算。"""
     incar = {
