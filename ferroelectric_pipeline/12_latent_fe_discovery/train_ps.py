@@ -108,17 +108,55 @@ def train_final(ds, device, epochs=200):
     print(f"saved production Ps model: tier2_ps.pt + tier2_ps_norm.json (trained on all {len(ds)})", flush=True)
 
 
+def run_parity(ds, device, epochs=200, seed=0):
+    """80/20 划分: 训练后在留出集预测, 保存 (真值 Ps, 预测 Ps) 供 parity 图。"""
+    n = len(ds); nv = int(0.2*n)
+    perm = torch.randperm(n, generator=torch.Generator().manual_seed(seed)).tolist()
+    va, tr = perm[:nv], perm[nv:]
+    y = ds.y; mean=ds.y[tr].mean(); std=ds.y[tr].std().clamp(min=1e-3)
+    md, sd = mean.to(device), std.to(device)
+    model = LatentFEModel().to(device)
+    if (HERE/"pretrained_backbone.pt").exists():
+        try: model.load_state_dict(torch.load(HERE/"pretrained_backbone.pt",map_location=device,weights_only=True),strict=True)
+        except Exception: pass
+    opt=torch.optim.AdamW(model.parameters(),lr=3e-3,weight_decay=1e-5)
+    sch=torch.optim.lr_scheduler.CosineAnnealingLR(opt,epochs)
+    tl=DataLoader(Subset(ds,tr),batch_size=32,shuffle=True,collate_fn=collate)
+    for _ in range(epochs):
+        model.train()
+        for b,yy in tl:
+            b={k:(v.to(device) if torch.is_tensor(v) else v) for k,v in b.items()}
+            yn=(yy.to(device)-md)/sd
+            out=model(b["z"],b["pos"],b["src"],b["dst"],b["vec"],b["batch"],b["n"])
+            loss=((out["amp"]-yn)**2).mean(); opt.zero_grad(); loss.backward()
+            torch.nn.utils.clip_grad_norm_(model.parameters(),5.0); opt.step()
+        sch.step()
+    model.eval(); pred,true,srcs=[],[],[]
+    vl=DataLoader(Subset(ds,va),batch_size=64,shuffle=False,collate_fn=collate)
+    with torch.no_grad():
+        for b,yy in vl:
+            b={k:(v.to(device) if torch.is_tensor(v) else v) for k,v in b.items()}
+            out=model(b["z"],b["pos"],b["src"],b["dst"],b["vec"],b["batch"],b["n"])
+            pred += torch.expm1(out["amp"].cpu()*std+mean).tolist(); true += torch.expm1(yy).tolist()
+    for i in va: srcs.append(ds.items[i]["source"])
+    json.dump({"true_Ps":true,"pred_Ps":pred,"source":srcs}, open(HERE/"ps_parity.json","w"))
+    print(f"saved ps_parity.json ({len(true)} held-out)", flush=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--cache", default=str(HERE/"ps_cache.pt"))
     ap.add_argument("--folds", type=int, default=5)
     ap.add_argument("--final", action="store_true", help="用全部数据训练生产模型并保存权重")
+    ap.add_argument("--parity", action="store_true", help="80/20 留出集 parity 数据")
     ap.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
     args = ap.parse_args()
     ds = PsData(args.cache); n = len(ds)
     sm = int(ds.is_smidt.sum()); print(f"N={n} (smidt={sm}, ricci={n-sm}) device={args.device}", flush=True)
     if args.final:
         train_final(ds, args.device); return
+    if args.parity:
+        run_parity(ds, args.device); return
     idx = torch.randperm(n, generator=torch.Generator().manual_seed(0)).tolist()
     folds = [idx[i::args.folds] for i in range(args.folds)]
     res = {"smidt_only": [], "combined": []}

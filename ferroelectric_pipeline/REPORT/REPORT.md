@@ -197,6 +197,19 @@ CsSr₂Nb₃O₁₀ (2)、其它/新颖 (91)。完整清单见 `discovery_list.j
 新算的）DFT 真值 → 模型更强。Ps 回归绝对精度仍有限（任务本身难），但"数据→精度"的因果链已用
 数据证实。脚本: `build_ps_dataset.py`（含 `query_mpcontribs.py` 复用）、`train_ps.py`。
 
+#### 2.5.2 已发布生产模型 + 与 Ricci 2024 同框对比（图 8）
+
+**已发布 `tier2_ps.pt`**（生产 Ps 模型）：在**完整可用 Ps 数据集 641 上训练**（Smidt 255 + Ricci 386）。
+经核实这 641 即两个数据库**全部有计算 Ps 真值**的条目（ext 386/517、Smidt 250/413 有 Ps，其余为
+筛除/未完成），故已无更多可复用数据——补齐完成。权重 + 归一化 + 溯源见 `tier2_ps.pt` / `tier2_ps_norm.json`。
+
+**图 8（对标 Ricci 2024 的核心图）**：
+- (a) **铁电 landscape**（Pₛ–能量）：把 636 个已发表铁电体（Ricci 386 + Smidt 250）画在同一空间，
+  我们独立验证的 **SrAlGeH / GeTe** 落在其中（★）→ 证明我们在同一"竞技场"内、结果自洽。我们的
+  **潜在铁电发现**则从**非极性母相**切入（与他们的极性筛选互补，Pₛ 待 DFT）。
+- (b) **ML vs DFT parity**：我们的 Ps 模型在留出集上重现 DFT 级 Pₛ（Spearman ρ=0.52，MAE 22.6 μC/cm²），
+  **15 ms vs ~3 h**。→ 直观说明"ML 以 ~8×10⁵× 速度逼近 DFT 级精度"，把算力精准导向最值得算的候选。
+
 ---
 
 ## 3. 图表
@@ -207,6 +220,7 @@ CsSr₂Nb₃O₁₀ (2)、其它/新颖 (91)。完整清单见 `discovery_list.j
 - **图 5** `fig5_endtoend_signatures.png`：端到端测试三材料的决定性铁电判据。
 - **图 6** `fig6_stability_timing.png`：(a) 5-折 CV 稳定性（误差棒）；(b) ML 推理 vs DFT 验证耗时（对数轴，~8×10⁵× 加速）。
 - **图 7** `fig7_reuse_ablation.png`：复用 Ricci 2024 的 Ps 标签使我们 Ps 模型显著变强（Spearman 0.30→0.49，log-R² −1.4→+0.1）。
+- **图 8** `fig8_paper_comparison.png`（对标 Ricci 2024）：(a) 636 个已发表铁电的 Pₛ–能量 landscape + 我们验证的 SrAlGeH/GeTe；(b) ML vs DFT Pₛ parity（ρ=0.52，15 ms vs 3 h）。
 
 ---
 

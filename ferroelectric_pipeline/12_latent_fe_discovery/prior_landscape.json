@@ -1,0 +1,3818 @@
+[
+ {
+  "formula": "Ag2GeS3",
+  "Ps": 49.3,
+  "energy": 127.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ag2HgSI2",
+  "Ps": 11.7,
+  "energy": 17.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ag3PO4",
+  "Ps": 6.2,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "AgIO3",
+  "Ps": 19.1,
+  "energy": 2.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Al(IO3)3",
+  "Ps": 24.3,
+  "energy": 381.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Al2CdBr8",
+  "Ps": 32.4,
+  "energy": 151.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Al2CdCl8",
+  "Ps": 36.3,
+  "energy": 201.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Al2PbO4",
+  "Ps": 96.8,
+  "energy": 122.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Al2Se3",
+  "Ps": 54.7,
+  "energy": 17.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Al3BC3",
+  "Ps": 2.5,
+  "energy": 5.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Al4(B2O5)3",
+  "Ps": 45.4,
+  "energy": 272.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Al4CO4",
+  "Ps": 103.7,
+  "energy": 274.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "AlHO2",
+  "Ps": 24.1,
+  "energy": 31.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "AlICl6",
+  "Ps": 5.1,
+  "energy": 204.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "AsClOF8",
+  "Ps": 7.6,
+  "energy": 21.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "AsF3",
+  "Ps": 69.0,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "AsHPbO4",
+  "Ps": 4.6,
+  "energy": 5.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "B2S2O9",
+  "Ps": 2.3,
+  "energy": 146.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "B4PbO7",
+  "Ps": 20.9,
+  "energy": 74.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BCl(OF2)2",
+  "Ps": 47.4,
+  "energy": 822.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba(GeP)2",
+  "Ps": 0.3,
+  "energy": 239.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba(Si3N4)2",
+  "Ps": 131.4,
+  "energy": 390.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2Ag8S7",
+  "Ps": 1.7,
+  "energy": 3.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2CdAs2",
+  "Ps": 14.6,
+  "energy": 97.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2Ge2Te5",
+  "Ps": 11.5,
+  "energy": 7.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2In2O5",
+  "Ps": 26.9,
+  "energy": 62.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2InBiS5",
+  "Ps": 28.0,
+  "energy": 114.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2InBiSe5",
+  "Ps": 30.2,
+  "energy": 101.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2InSbSe5",
+  "Ps": 21.5,
+  "energy": 94.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2Si5N8",
+  "Ps": 73.2,
+  "energy": 247.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2Ti(GeO4)2",
+  "Ps": 12.7,
+  "energy": 237.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba2Ti(SiO4)2",
+  "Ps": 7.5,
+  "energy": 309.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba4Bi2O",
+  "Ps": 9.1,
+  "energy": 6.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba4Br6O",
+  "Ps": 3.8,
+  "energy": 94.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba4Cl6O",
+  "Ps": 3.5,
+  "energy": 85.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba5Re3IO15",
+  "Ps": 23.7,
+  "energy": 347.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ba5Re3NO18",
+  "Ps": 23.3,
+  "energy": 48.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaAl4S7",
+  "Ps": 45.2,
+  "energy": 79.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaAlH5",
+  "Ps": 8.3,
+  "energy": 7.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaBClF4",
+  "Ps": 26.7,
+  "energy": 205.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaBe2Si2O7",
+  "Ps": 95.0,
+  "energy": 248.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaCa(GaO2)4",
+  "Ps": 85.5,
+  "energy": 104.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaGa4S7",
+  "Ps": 43.9,
+  "energy": 100.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaGaH5",
+  "Ps": 29.8,
+  "energy": 73.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaHgS2",
+  "Ps": 6.9,
+  "energy": 85.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaNa(B3O5)3",
+  "Ps": 11.7,
+  "energy": 8.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaSi6N8O",
+  "Ps": 129.6,
+  "energy": 405.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaSi7N10",
+  "Ps": 89.8,
+  "energy": 225.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaTi(IO3)6",
+  "Ps": 10.4,
+  "energy": 9.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaYSi4N7",
+  "Ps": 138.2,
+  "energy": 655.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BaZnF4",
+  "Ps": 12.2,
+  "energy": 22.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Be2BH3O5",
+  "Ps": 61.3,
+  "energy": 294.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Be4Si2H2O9",
+  "Ps": 66.6,
+  "energy": 242.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BeGeN2",
+  "Ps": 152.7,
+  "energy": 269.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BeO",
+  "Ps": 121.5,
+  "energy": 123.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BeSiN2",
+  "Ps": 161.7,
+  "energy": 300.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Bi10(MoO8)3",
+  "Ps": 10.6,
+  "energy": 70.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Bi2MoO6",
+  "Ps": 9.2,
+  "energy": 46.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Bi2SeO5",
+  "Ps": 2.6,
+  "energy": 66.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Bi2TeO5",
+  "Ps": 59.6,
+  "energy": 123.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Bi2WO6",
+  "Ps": 53.4,
+  "energy": 9.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Bi4Br2O5",
+  "Ps": 24.6,
+  "energy": 16.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BiIO4",
+  "Ps": 77.7,
+  "energy": 59.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BrF3",
+  "Ps": 30.7,
+  "energy": 142.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "BrF5",
+  "Ps": 25.3,
+  "energy": 31.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca11AlSb9",
+  "Ps": 17.6,
+  "energy": 103.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca2BiAsO6",
+  "Ps": 14.4,
+  "energy": 371.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca2CdAs2",
+  "Ps": 15.5,
+  "energy": 68.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca2CdP2",
+  "Ps": 14.7,
+  "energy": 81.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca2Nb2O7",
+  "Ps": 22.6,
+  "energy": 15.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca2Si5N8",
+  "Ps": 87.9,
+  "energy": 267.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca2VBiO6",
+  "Ps": 13.9,
+  "energy": 344.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca4Cl6O",
+  "Ps": 6.3,
+  "energy": 155.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca4YB3O10",
+  "Ps": 28.1,
+  "energy": 147.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca5NbN5",
+  "Ps": 39.3,
+  "energy": 29.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ca5P3HO13",
+  "Ps": 9.9,
+  "energy": 111.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CaAlBO4",
+  "Ps": 6.7,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CaB3HO6",
+  "Ps": 29.9,
+  "energy": 327.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CaB4(H10N)2",
+  "Ps": 22.3,
+  "energy": 375.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CaC2(NO)2",
+  "Ps": 5.9,
+  "energy": 18.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CaGaBO4",
+  "Ps": 9.5,
+  "energy": 3.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CaPHO4",
+  "Ps": 7.8,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CaSnN2",
+  "Ps": 88.1,
+  "energy": 61.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CaTa2Bi2O9",
+  "Ps": 40.9,
+  "energy": 33.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cd(GaCl4)2",
+  "Ps": 36.2,
+  "energy": 180.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cd2BiAsO6",
+  "Ps": 73.2,
+  "energy": 205.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cd2GaAgS4",
+  "Ps": 55.1,
+  "energy": 145.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CdBiO3",
+  "Ps": 35.9,
+  "energy": 29.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CdCu2SiS4",
+  "Ps": 64.4,
+  "energy": 232.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CdGeN2",
+  "Ps": 118.4,
+  "energy": 312.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CdHg4(AsI2)2",
+  "Ps": 6.2,
+  "energy": 21.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CdS",
+  "Ps": 51.2,
+  "energy": 91.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "ClF5",
+  "Ps": 31.2,
+  "energy": 62.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "ClO3",
+  "Ps": 43.0,
+  "energy": 153.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs2CaP2O7",
+  "Ps": 1.0,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs2Hg6S7",
+  "Ps": 3.3,
+  "energy": 71.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs2S3",
+  "Ps": 8.2,
+  "energy": 332.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs2Se3",
+  "Ps": 19.9,
+  "energy": 127.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs2Te3",
+  "Ps": 28.5,
+  "energy": 31.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs2Ti(Si2O5)3",
+  "Ps": 3.1,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs3H(SeO4)2",
+  "Ps": 3.2,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs4Au6S5",
+  "Ps": 24.0,
+  "energy": 336.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cs4Sb2O5",
+  "Ps": 4.2,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsAsF4",
+  "Ps": 21.6,
+  "energy": 52.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsBeAsO4",
+  "Ps": 1.4,
+  "energy": 23.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsBrO3",
+  "Ps": 105.2,
+  "energy": 674.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsGeBr3",
+  "Ps": 20.0,
+  "energy": 14.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsGeCl3",
+  "Ps": 22.5,
+  "energy": 24.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsGeI3",
+  "Ps": 17.6,
+  "energy": 23.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsIO3",
+  "Ps": 73.4,
+  "energy": 167.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsNb(CuTe2)2",
+  "Ps": 1.0,
+  "energy": 130.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CsSO3",
+  "Ps": 10.9,
+  "energy": 11.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Cu2SiHgS4",
+  "Ps": 64.4,
+  "energy": 216.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "CuReO4",
+  "Ps": 10.6,
+  "energy": 56.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ga(IO3)3",
+  "Ps": 22.9,
+  "energy": 377.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ga2PbO4",
+  "Ps": 99.3,
+  "energy": 165.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ga2S3",
+  "Ps": 60.9,
+  "energy": 25.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ga2Sn2S5",
+  "Ps": 21.4,
+  "energy": 109.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ga3Pb5F19",
+  "Ps": 16.6,
+  "energy": 31.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "GaClO",
+  "Ps": 50.0,
+  "energy": 113.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "GaN",
+  "Ps": 130.7,
+  "energy": 234.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "GaSeBr7",
+  "Ps": 26.4,
+  "energy": 193.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ge3N4",
+  "Ps": 0.2,
+  "energy": 158.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "GeH3Cl",
+  "Ps": 61.4,
+  "energy": 209.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "GeS2",
+  "Ps": 0.8,
+  "energy": 502.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "GeTe",
+  "Ps": 66.7,
+  "energy": 23.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "H2O",
+  "Ps": 25.8,
+  "energy": 96.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "H3NO4",
+  "Ps": 1.0,
+  "energy": 64.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "H7ClO3",
+  "Ps": 79.7,
+  "energy": 149.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "H7N2F",
+  "Ps": 5.1,
+  "energy": 12.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "H9Au(ClO)4",
+  "Ps": 5.1,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "HfZnN2",
+  "Ps": 202.5,
+  "energy": 625.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Hg(ClO3)2",
+  "Ps": 1.2,
+  "energy": 13.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Hg(IO3)2",
+  "Ps": 36.6,
+  "energy": 195.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "HgBr2",
+  "Ps": 0.3,
+  "energy": 3.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "In(IO3)3",
+  "Ps": 17.8,
+  "energy": 355.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "InSnBr3",
+  "Ps": 4.9,
+  "energy": 20.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2BaCdSb2",
+  "Ps": 9.0,
+  "energy": 52.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2Ge2O5",
+  "Ps": 5.4,
+  "energy": 16.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2GeF6",
+  "Ps": 58.1,
+  "energy": 510.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2LiBO3",
+  "Ps": 1.1,
+  "energy": 76.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2Se3",
+  "Ps": 40.1,
+  "energy": 68.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2Si2O5",
+  "Ps": 24.2,
+  "energy": 50.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2Si3SnO9",
+  "Ps": 1.3,
+  "energy": 15.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2Si6GeO15",
+  "Ps": 57.8,
+  "energy": 317.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2Sn2Hg3S8",
+  "Ps": 45.7,
+  "energy": 29.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2SrCdSb2",
+  "Ps": 10.3,
+  "energy": 57.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K2Ti(SiO3)3",
+  "Ps": 1.8,
+  "energy": 13.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K3H(SeO4)2",
+  "Ps": 3.3,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K3NO3",
+  "Ps": 1.5,
+  "energy": 563.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K4Ba2SnAs4",
+  "Ps": 12.3,
+  "energy": 99.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K4Ba2SnBi4",
+  "Ps": 16.8,
+  "energy": 14.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K4Ba2SnP4",
+  "Ps": 7.1,
+  "energy": 111.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K4Ba2SnSb4",
+  "Ps": 10.1,
+  "energy": 74.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K5BaNbAs4",
+  "Ps": 3.1,
+  "energy": 199.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K5BaTaP4",
+  "Ps": 9.6,
+  "energy": 239.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K6CdO4",
+  "Ps": 4.2,
+  "energy": 99.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K6CdTe4",
+  "Ps": 2.1,
+  "energy": 40.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K6HgS4",
+  "Ps": 2.9,
+  "energy": 50.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K6HgSe4",
+  "Ps": 2.3,
+  "energy": 43.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K6InP3",
+  "Ps": 4.7,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K6MgO4",
+  "Ps": 5.6,
+  "energy": 99.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K6ZnS4",
+  "Ps": 2.8,
+  "energy": 55.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "K6ZnSe4",
+  "Ps": 2.3,
+  "energy": 52.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KAgSnSe3",
+  "Ps": 2.4,
+  "energy": 3.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KAs3(PbO3)4",
+  "Ps": 47.8,
+  "energy": 239.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KAu(IO3)4",
+  "Ps": 66.3,
+  "energy": 23.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KBePO4",
+  "Ps": 2.2,
+  "energy": 21.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KBrO3",
+  "Ps": 127.0,
+  "energy": 478.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KCu(BiS2)2",
+  "Ps": 14.3,
+  "energy": 2.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KGaBr4",
+  "Ps": 30.8,
+  "energy": 256.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KGe2N3",
+  "Ps": 109.0,
+  "energy": 357.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KGeNO",
+  "Ps": 67.3,
+  "energy": 230.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KH2(IO3)3",
+  "Ps": 6.7,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KLiSi2O5",
+  "Ps": 69.5,
+  "energy": 161.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KLiZn3O4",
+  "Ps": 58.2,
+  "energy": 152.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KNa2CuO2",
+  "Ps": 22.8,
+  "energy": 8.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KNaGeO3",
+  "Ps": 39.7,
+  "energy": 53.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KNaSnF6",
+  "Ps": 0.4,
+  "energy": 14.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KNb4AsO13",
+  "Ps": 1.5,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KNbSi2O7",
+  "Ps": 22.5,
+  "energy": 14.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KNbWO6",
+  "Ps": 25.5,
+  "energy": 5.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KSbWO6",
+  "Ps": 9.2,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KSi2N3",
+  "Ps": 118.9,
+  "energy": 362.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KSnAuSe3",
+  "Ps": 2.5,
+  "energy": 2.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KTa2PO8",
+  "Ps": 4.5,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KTaWO6",
+  "Ps": 1.3,
+  "energy": 2.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KV3Cd4O12",
+  "Ps": 6.8,
+  "energy": 2.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KYGeS4",
+  "Ps": 11.0,
+  "energy": 14.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KYSiS4",
+  "Ps": 10.1,
+  "energy": 11.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "KZn4(SbO4)3",
+  "Ps": 18.6,
+  "energy": 464.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2B4O7",
+  "Ps": 42.2,
+  "energy": 341.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2CdGeO4",
+  "Ps": 82.3,
+  "energy": 126.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2CdGeS4",
+  "Ps": 58.3,
+  "energy": 152.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2CdSnS4",
+  "Ps": 55.4,
+  "energy": 96.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2GeO3",
+  "Ps": 75.8,
+  "energy": 54.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2MgGeO4",
+  "Ps": 86.6,
+  "energy": 65.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2Mo3S4",
+  "Ps": 14.4,
+  "energy": 8.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2PNO2",
+  "Ps": 104.8,
+  "energy": 211.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2Si2O5",
+  "Ps": 84.1,
+  "energy": 158.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2SiO3",
+  "Ps": 77.9,
+  "energy": 103.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li2ZnGeS4",
+  "Ps": 61.6,
+  "energy": 155.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3AlGeO5",
+  "Ps": 9.3,
+  "energy": 58.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3AlSiO5",
+  "Ps": 9.6,
+  "energy": 94.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3AsO4",
+  "Ps": 89.6,
+  "energy": 122.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3AsS3",
+  "Ps": 8.3,
+  "energy": 32.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3GaGeO5",
+  "Ps": 9.4,
+  "energy": 63.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3GaSiO5",
+  "Ps": 9.8,
+  "energy": 104.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3PO4",
+  "Ps": 95.9,
+  "energy": 255.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3SbS4",
+  "Ps": 56.6,
+  "energy": 100.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li3VO4",
+  "Ps": 86.6,
+  "energy": 71.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li5SiP3",
+  "Ps": 31.8,
+  "energy": 40.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li7BiO6",
+  "Ps": 15.1,
+  "energy": 5.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Li8TiS6",
+  "Ps": 5.8,
+  "energy": 78.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiAlS2",
+  "Ps": 60.3,
+  "energy": 110.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiAlSe2",
+  "Ps": 54.1,
+  "energy": 113.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiAsS2",
+  "Ps": 81.9,
+  "energy": 133.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiB(SO4)2",
+  "Ps": 46.6,
+  "energy": 21.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiB6C",
+  "Ps": 8.3,
+  "energy": 12.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiGaO2",
+  "Ps": 86.8,
+  "energy": 57.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiGaS2",
+  "Ps": 59.8,
+  "energy": 134.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiGaSe2",
+  "Ps": 53.9,
+  "energy": 137.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiGe2N3",
+  "Ps": 126.1,
+  "energy": 226.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiI",
+  "Ps": 21.9,
+  "energy": 34.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiInS2",
+  "Ps": 54.6,
+  "energy": 81.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiP(HO2)2",
+  "Ps": 42.4,
+  "energy": 542.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiScAs2O7",
+  "Ps": 130.8,
+  "energy": 511.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiSi2N3",
+  "Ps": 134.2,
+  "energy": 266.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiSiNO",
+  "Ps": 110.3,
+  "energy": 174.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiSnPO4",
+  "Ps": 0.5,
+  "energy": 307.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiTaO3",
+  "Ps": 57.8,
+  "energy": 13.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "LiVN2",
+  "Ps": 124.8,
+  "energy": 34.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Mg2PN3",
+  "Ps": 91.5,
+  "energy": 193.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Mg2SbN3",
+  "Ps": 103.1,
+  "energy": 52.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Mg2VN3",
+  "Ps": 99.5,
+  "energy": 41.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "MgGeN2",
+  "Ps": 123.1,
+  "energy": 187.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "MgSiN2",
+  "Ps": 129.8,
+  "energy": 255.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "MgTe",
+  "Ps": 42.7,
+  "energy": 80.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NF2",
+  "Ps": 0.0,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na2SiO3",
+  "Ps": 2.0,
+  "energy": 48.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na2Zn2Si2O7",
+  "Ps": 24.1,
+  "energy": 252.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3AsO4",
+  "Ps": 71.7,
+  "energy": 215.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3Ca3AlAs4",
+  "Ps": 1.5,
+  "energy": 72.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3Ca3AlSb4",
+  "Ps": 2.5,
+  "energy": 50.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3HfF7",
+  "Ps": 26.0,
+  "energy": 90.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3MoN3",
+  "Ps": 7.5,
+  "energy": 13.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3PS3O",
+  "Ps": 45.7,
+  "energy": 512.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3PSO3",
+  "Ps": 41.4,
+  "energy": 184.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3Sc2(PO4)3",
+  "Ps": 7.4,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3Sr3AlP4",
+  "Ps": 0.0,
+  "energy": 65.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3Sr3GaAs4",
+  "Ps": 1.8,
+  "energy": 48.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3Sr3GaP4",
+  "Ps": 1.2,
+  "energy": 48.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3VO4",
+  "Ps": 69.0,
+  "energy": 178.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na3WN3",
+  "Ps": 9.5,
+  "energy": 15.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na4Ca2SiP4",
+  "Ps": 7.3,
+  "energy": 106.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na4SnO3",
+  "Ps": 44.7,
+  "energy": 210.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na4Sr2TiAs4",
+  "Ps": 3.8,
+  "energy": 137.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na5B2P3O13",
+  "Ps": 42.7,
+  "energy": 58.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na6ZnO4",
+  "Ps": 5.6,
+  "energy": 99.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na6ZnS4",
+  "Ps": 3.9,
+  "energy": 59.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Na6ZnSe4",
+  "Ps": 3.6,
+  "energy": 50.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaAlO2",
+  "Ps": 77.9,
+  "energy": 148.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaAs3(PbO3)4",
+  "Ps": 3.2,
+  "energy": 43.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaGaO2",
+  "Ps": 73.3,
+  "energy": 103.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaGaSiO4",
+  "Ps": 7.9,
+  "energy": 580.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaGe2N3",
+  "Ps": 112.5,
+  "energy": 269.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaH9O5",
+  "Ps": 6.3,
+  "energy": 8.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaHSeO4",
+  "Ps": 14.9,
+  "energy": 9.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaLi2AsO4",
+  "Ps": 81.0,
+  "energy": 162.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaNbS6",
+  "Ps": 15.4,
+  "energy": 195.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaNbSe2O7",
+  "Ps": 14.0,
+  "energy": 3.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaP3(PbO3)4",
+  "Ps": 2.0,
+  "energy": 51.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaSb3F10",
+  "Ps": 50.4,
+  "energy": 103.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaScAs2O7",
+  "Ps": 125.3,
+  "energy": 494.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaSi2N3",
+  "Ps": 121.9,
+  "energy": 351.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaV3(PbO3)4",
+  "Ps": 4.2,
+  "energy": 41.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NaY(SeO3)2",
+  "Ps": 7.0,
+  "energy": 9.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Nb3Al(PO4)6",
+  "Ps": 88.3,
+  "energy": 171.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NbBr2O",
+  "Ps": 23.4,
+  "energy": 5.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NbCl2O",
+  "Ps": 26.9,
+  "energy": 5.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NbI2O",
+  "Ps": 17.5,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NbSeF9",
+  "Ps": 0.1,
+  "energy": 186.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NbTlBr4O",
+  "Ps": 17.8,
+  "energy": 13.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NbTlTeO6",
+  "Ps": 25.2,
+  "energy": 7.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "NbZn2N3",
+  "Ps": 115.8,
+  "energy": 95.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "PHPbO4",
+  "Ps": 2.4,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "PI3",
+  "Ps": 1.0,
+  "energy": 343.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "PSeCl9",
+  "Ps": 13.0,
+  "energy": 14.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Pb3SeO5",
+  "Ps": 18.8,
+  "energy": 210.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "PdF4",
+  "Ps": 22.5,
+  "energy": 204.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Rb2Cd(IBr)2",
+  "Ps": 20.4,
+  "energy": 65.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Rb2Mo(OF2)2",
+  "Ps": 22.4,
+  "energy": 519.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Rb2Mo3SeO12",
+  "Ps": 68.4,
+  "energy": 32.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Rb2Se3",
+  "Ps": 20.7,
+  "energy": 93.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Rb2SnO3",
+  "Ps": 6.3,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Rb5Nb3OF18",
+  "Ps": 11.2,
+  "energy": 14.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Rb6CdO4",
+  "Ps": 4.5,
+  "energy": 86.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Rb6HgS4",
+  "Ps": 2.6,
+  "energy": 50.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbBe2F5",
+  "Ps": 31.3,
+  "energy": 113.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbBePO4",
+  "Ps": 1.2,
+  "energy": 7.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbBrO3",
+  "Ps": 114.6,
+  "energy": 552.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbGeB3O7",
+  "Ps": 1.3,
+  "energy": 30.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbGeBr3",
+  "Ps": 11.2,
+  "energy": 24.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbH3O2",
+  "Ps": 28.1,
+  "energy": 150.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbHgSbTe3",
+  "Ps": 14.6,
+  "energy": 3.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbMgPO4",
+  "Ps": 1.0,
+  "energy": 7.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbMoIO6",
+  "Ps": 55.6,
+  "energy": 88.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbPbF3",
+  "Ps": 4.7,
+  "energy": 6.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbSbMoO6",
+  "Ps": 28.5,
+  "energy": 13.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbSnCl3",
+  "Ps": 5.7,
+  "energy": 7.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbV3Cd4O12",
+  "Ps": 5.1,
+  "energy": 2.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "RbZnPO4",
+  "Ps": 0.4,
+  "energy": 16.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Re2S2O13",
+  "Ps": 7.3,
+  "energy": 78.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SBr",
+  "Ps": 2.1,
+  "energy": 214.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SCl",
+  "Ps": 0.2,
+  "energy": 208.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SO3",
+  "Ps": 1.5,
+  "energy": 344.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sb6S2O15",
+  "Ps": 3.4,
+  "energy": 55.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SbF3",
+  "Ps": 4.4,
+  "energy": 145.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SbICl8",
+  "Ps": 0.5,
+  "energy": 40.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SbXe2F9",
+  "Ps": 1.7,
+  "energy": 6.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sc2TiO5",
+  "Ps": 35.3,
+  "energy": 88.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "ScHO2",
+  "Ps": 22.1,
+  "energy": 40.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SeOF2",
+  "Ps": 85.7,
+  "energy": 160.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Si2N2O",
+  "Ps": 132.2,
+  "energy": 339.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SnPS3",
+  "Ps": 32.0,
+  "energy": 11.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SnPSe3",
+  "Ps": 24.7,
+  "energy": 8.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr(Si3N4)2",
+  "Ps": 134.5,
+  "energy": 353.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr14(SnAs4)3",
+  "Ps": 20.0,
+  "energy": 59.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr2Al2SiO7",
+  "Ps": 9.3,
+  "energy": 84.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr2CdAs2",
+  "Ps": 11.7,
+  "energy": 79.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr2Nb2O7",
+  "Ps": 38.9,
+  "energy": 9.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr2Si5N8",
+  "Ps": 76.4,
+  "energy": 258.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr2SnS4",
+  "Ps": 58.0,
+  "energy": 77.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr4Bi2O",
+  "Ps": 4.8,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr4Br6O",
+  "Ps": 5.2,
+  "energy": 128.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr4Cl6O",
+  "Ps": 4.8,
+  "energy": 125.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Sr7Y6OF30",
+  "Ps": 10.3,
+  "energy": 25.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SrAlGeH",
+  "Ps": 40.0,
+  "energy": 63.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SrGaSiH",
+  "Ps": 39.6,
+  "energy": 51.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SrMgH4",
+  "Ps": 18.2,
+  "energy": 26.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SrNb2Bi2O9",
+  "Ps": 57.7,
+  "energy": 15.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "SrTaNO2",
+  "Ps": 42.0,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ta2Pb2O7",
+  "Ps": 40.6,
+  "energy": 6.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TaTi(PO4)3",
+  "Ps": 86.5,
+  "energy": 185.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TaTlWO6",
+  "Ps": 14.1,
+  "energy": 4.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TaZn2N3",
+  "Ps": 118.9,
+  "energy": 105.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Te2O5",
+  "Ps": 97.1,
+  "energy": 252.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TePCl9",
+  "Ps": 8.6,
+  "energy": 19.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TePb3Cl4O3",
+  "Ps": 32.8,
+  "energy": 45.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TeSeO4",
+  "Ps": 33.5,
+  "energy": 234.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ti(SO4)2",
+  "Ps": 83.1,
+  "energy": 51.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ti3P6WO24",
+  "Ps": 87.8,
+  "energy": 156.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TiBi2O5",
+  "Ps": 35.1,
+  "energy": 24.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TiI2O7",
+  "Ps": 12.9,
+  "energy": 3.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TiNb(PO4)3",
+  "Ps": 87.0,
+  "energy": 172.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TiSb(PO4)3",
+  "Ps": 83.2,
+  "energy": 129.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TiZnN2",
+  "Ps": 121.1,
+  "energy": 65.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Tl2MoO4",
+  "Ps": 5.7,
+  "energy": 7.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Tl2ZnI4",
+  "Ps": 7.7,
+  "energy": 7.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Tl3AsO4",
+  "Ps": 43.9,
+  "energy": 136.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Tl3PO4",
+  "Ps": 47.4,
+  "energy": 264.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Tl9SbTe6",
+  "Ps": 7.6,
+  "energy": 1.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TlBO2",
+  "Ps": 8.4,
+  "energy": 6.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TlSbWO6",
+  "Ps": 11.2,
+  "energy": 2.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TlSnPS4",
+  "Ps": 15.1,
+  "energy": 8.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TlVSeO5",
+  "Ps": 56.8,
+  "energy": 287.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TlVTeO5",
+  "Ps": 61.4,
+  "energy": 176.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "TlZnPO4",
+  "Ps": 1.5,
+  "energy": 11.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "VCd2BiO6",
+  "Ps": 97.6,
+  "energy": 334.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "VZn2N3",
+  "Ps": 120.9,
+  "energy": 145.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Y3CuGeS7",
+  "Ps": 16.7,
+  "energy": 392.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Y3CuSiS7",
+  "Ps": 52.6,
+  "energy": 248.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Y3CuSiSe7",
+  "Ps": 38.1,
+  "energy": 300.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Y3Si6N11",
+  "Ps": 11.2,
+  "energy": 340.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Y3TlF10",
+  "Ps": 55.7,
+  "energy": 125.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "YB6(HO4)3",
+  "Ps": 44.5,
+  "energy": 277.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "YTl(PSe3)2",
+  "Ps": 13.5,
+  "energy": 194.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Zn(PO3)2",
+  "Ps": 26.4,
+  "energy": 28.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Zn2MoSeO7",
+  "Ps": 53.2,
+  "energy": 250.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Zn2TeMoO7",
+  "Ps": 54.0,
+  "energy": 214.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Zn3MoN4",
+  "Ps": 130.5,
+  "energy": 203.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "ZnAgPS4",
+  "Ps": 32.4,
+  "energy": 269.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "ZnBi6P2O15",
+  "Ps": 35.1,
+  "energy": 24.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "ZnGeN2",
+  "Ps": 131.9,
+  "energy": 284.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "ZnSiN2",
+  "Ps": 141.8,
+  "energy": 367.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "ZrZnN2",
+  "Ps": 192.6,
+  "energy": 540.0,
+  "project": "ferroelectrics_ext"
+ },
+ {
+  "formula": "Ag(CO)2",
+  "Ps": 0.00457159,
+  "energy": -0.000519,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag10Te4Br3",
+  "Ps": 3.86276,
+  "energy": -0.00241,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag2BiO3",
+  "Ps": 14.528,
+  "energy": 0.00253,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag2S",
+  "Ps": 48.8741,
+  "energy": 0.082,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag2S",
+  "Ps": 0.397606,
+  "energy": 0.00257,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag2S",
+  "Ps": 50.2193,
+  "energy": 0.0454,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag2S",
+  "Ps": 17.6186,
+  "energy": 0.00278,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag2S",
+  "Ps": 21.0578,
+  "energy": -0.0761,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag2S",
+  "Ps": 60.8453,
+  "energy": -0.0768,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag2WO4",
+  "Ps": 1.01427,
+  "energy": -0.0026,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag3SI",
+  "Ps": 0.681856,
+  "energy": 0.00224,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag3SI",
+  "Ps": 0.685973,
+  "energy": 0.0413,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ag3SI",
+  "Ps": 11.7368,
+  "energy": 0.0109,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Al(HO)3",
+  "Ps": 8.11135,
+  "energy": 0.00807,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Al(HO)3",
+  "Ps": 0.116845,
+  "energy": 0.00981,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Al(HO)3",
+  "Ps": 11.4809,
+  "energy": 0.0042,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Al11AgO17",
+  "Ps": 2.38795,
+  "energy": 0.000413,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Al3Pb5F19",
+  "Ps": 13.8641,
+  "energy": 0.0205,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "AlBiO3",
+  "Ps": 80.3416,
+  "energy": 0.0679,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "AlBiO3",
+  "Ps": 4.82718,
+  "energy": 0.348,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "AlHg2SbCl4",
+  "Ps": 0.493647,
+  "energy": -0.000393,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "AlN",
+  "Ps": 133.008,
+  "energy": 0.115,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ba2CrO4",
+  "Ps": 2.70215,
+  "energy": -0.000154,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ba2YF7",
+  "Ps": 0.702794,
+  "energy": -0.0644,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaAl2O4",
+  "Ps": 0.317642,
+  "energy": 0.00361,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaAl2O4",
+  "Ps": 0.321171,
+  "energy": 0.00361,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaLaCl5",
+  "Ps": 26.1234,
+  "energy": 0.0136,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaNiO3",
+  "Ps": 3.73006,
+  "energy": 0.000239,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaTi2O5",
+  "Ps": 15.3103,
+  "energy": 0.00314,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaTiO3",
+  "Ps": 45.9021,
+  "energy": 0.0113,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaTiO3",
+  "Ps": 49.876,
+  "energy": 0.0139,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaTiO3",
+  "Ps": 49.9253,
+  "energy": 0.0144,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BaTiO3",
+  "Ps": 46.6983,
+  "energy": 0.0114,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BeH8(NF2)2",
+  "Ps": 0.582974,
+  "energy": 0.0103,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "BeH8(NF2)2",
+  "Ps": 0.583001,
+  "energy": 0.0096,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Bi2MoO6",
+  "Ps": 7.70984,
+  "energy": 0.0456,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Bi2MoO6",
+  "Ps": 7.70983,
+  "energy": 0.0446,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ca5P3ClO12",
+  "Ps": 2.13164,
+  "energy": 0.000632,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CaAl2Si2(H2O5)2",
+  "Ps": 4.19884,
+  "energy": 0.00474,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CaB3H5O8",
+  "Ps": 0.616496,
+  "energy": 0.0044,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CaF2",
+  "Ps": 16.5077,
+  "energy": 0.0578,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Cd2P3Cl",
+  "Ps": 0.812821,
+  "energy": 5.39e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CdCl2",
+  "Ps": 48.3952,
+  "energy": -0.0457,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Cr(PO3)3",
+  "Ps": 0.339359,
+  "energy": 0.00111,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Cr3B7ClO13",
+  "Ps": 1.56126,
+  "energy": 0.000165,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CrO3",
+  "Ps": 0.370531,
+  "energy": 0.0214,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CrO3",
+  "Ps": 78.166,
+  "energy": -0.103,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Cs2HgI4",
+  "Ps": 0.336377,
+  "energy": -0.000757,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Cs2PbO3",
+  "Ps": 7.21822,
+  "energy": 0.000419,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Cs4CO4",
+  "Ps": 1.69489,
+  "energy": -0.00284,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CsGeBr3",
+  "Ps": 19.2511,
+  "energy": 0.015,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CsPbCl3",
+  "Ps": 2.25805,
+  "energy": 0.00727,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CsPbF3",
+  "Ps": 0.672561,
+  "energy": 0.00461,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CsZnPO4",
+  "Ps": 0.96245,
+  "energy": 0.0123,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Cu2H10C6S3N4",
+  "Ps": 0.0164733,
+  "energy": -0.00727,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "CuBi(WO4)2",
+  "Ps": 0.823922,
+  "energy": 8.96e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "FeBiO3",
+  "Ps": 124.525,
+  "energy": 0.182,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "GaHg2SbCl4",
+  "Ps": 0.539724,
+  "energy": -0.000594,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "GaN5O14",
+  "Ps": 0.0292889,
+  "energy": 0.00215,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H(CO)2",
+  "Ps": 3.44927,
+  "energy": -0.00275,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H10C3NClO4",
+  "Ps": 0.308407,
+  "energy": -0.00048,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H2O",
+  "Ps": 13.4734,
+  "energy": -0.000781,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H2O",
+  "Ps": 13.4734,
+  "energy": 0.000239,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H2SO4",
+  "Ps": 50.9724,
+  "energy": -0.0337,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H2SO4",
+  "Ps": 20.3975,
+  "energy": -0.00262,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H2SO4",
+  "Ps": 67.3892,
+  "energy": -0.0466,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H3ClO5",
+  "Ps": 5.23424,
+  "energy": 0.0469,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H4CSN2",
+  "Ps": 4.84223,
+  "energy": -0.00605,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H4NClO4",
+  "Ps": 2.2035,
+  "energy": -0.0012,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H4SO5",
+  "Ps": 1.03029,
+  "energy": -9.41e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H5IO6",
+  "Ps": 0.316701,
+  "energy": -0.00114,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H5IO6",
+  "Ps": 28.4832,
+  "energy": 0.00527,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "H8S(NO2)2",
+  "Ps": 0.00179763,
+  "energy": 0.00735,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "HBr",
+  "Ps": 72.518,
+  "energy": 0.319,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "HCl",
+  "Ps": 33.5543,
+  "energy": 0.326,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "HCl",
+  "Ps": 57.3667,
+  "energy": 0.273,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "HfO2",
+  "Ps": 53.4221,
+  "energy": 0.0602,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "HfPbO3",
+  "Ps": 19.7835,
+  "energy": -0.00326,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "HgC2(SN)2",
+  "Ps": 0.910702,
+  "energy": -0.00231,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "InBiO3",
+  "Ps": 64.743,
+  "energy": 0.467,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "InBiO3",
+  "Ps": 64.7432,
+  "energy": 0.011,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "InCl",
+  "Ps": 3.81281,
+  "energy": -0.000124,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "InHO2",
+  "Ps": 13.1586,
+  "energy": 0.01,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K2FeF5",
+  "Ps": 0.547168,
+  "energy": -3.22e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K2HS2NO6",
+  "Ps": 3.20542,
+  "energy": 0.00561,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K2SeO4",
+  "Ps": 0.715214,
+  "energy": 9.97e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K2Zn6O7",
+  "Ps": 2.53488,
+  "energy": -0.000932,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K2ZnCl4",
+  "Ps": 2.23067,
+  "energy": -0.000395,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K2ZnCl4",
+  "Ps": 0.462266,
+  "energy": 0.0128,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K3Nb3(BO6)2",
+  "Ps": 0.101849,
+  "energy": 0.00398,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K3SbS4",
+  "Ps": 1.03305,
+  "energy": 0.00776,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K4CO4",
+  "Ps": 14.5892,
+  "energy": -0.00192,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K4CO4",
+  "Ps": 10.159,
+  "energy": 0.00242,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K4CO4",
+  "Ps": 2.58222,
+  "energy": -0.00101,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K4CO4",
+  "Ps": 16.6408,
+  "energy": -0.00533,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K4CO4",
+  "Ps": 16.6534,
+  "energy": 0.00626,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "K6BiH3(Cl2F)4",
+  "Ps": 0.0748051,
+  "energy": -0.000649,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "KAuCl4",
+  "Ps": 0.274717,
+  "energy": 0.000132,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "KEr2F7",
+  "Ps": 1.52728,
+  "energy": -5.01e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "KLaSiS4",
+  "Ps": 7.42556,
+  "energy": 0.00275,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "KNbO3",
+  "Ps": 51.3432,
+  "energy": 0.0128,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "KNbO3",
+  "Ps": 50.7448,
+  "energy": 0.0129,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "KNbO3",
+  "Ps": 48.6717,
+  "energy": 0.0107,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "KP(HO2)2",
+  "Ps": 0.518525,
+  "energy": 0.00255,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "KP(HO2)2",
+  "Ps": 5.19801,
+  "energy": 0.00481,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "La(HO)3",
+  "Ps": 17.9091,
+  "energy": -0.00165,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li2Co(CO3)2",
+  "Ps": 1.23129,
+  "energy": -0.0247,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li2Co(CO3)2",
+  "Ps": 4.90065,
+  "energy": -0.0191,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li2CoBO4",
+  "Ps": 5.29822,
+  "energy": 0.0334,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li2FeF4",
+  "Ps": 57.1698,
+  "energy": 0.0451,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li2FeSiO4",
+  "Ps": 76.0848,
+  "energy": -0.013,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li2Mn(SiO3)2",
+  "Ps": 4.92634,
+  "energy": 0.0047,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li2VH2OF5",
+  "Ps": 10.2787,
+  "energy": 0.00494,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li4CO4",
+  "Ps": 49.0004,
+  "energy": 0.0142,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li4CO4",
+  "Ps": 0.0709806,
+  "energy": -0.00104,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li4CO4",
+  "Ps": 16.6413,
+  "energy": 0.00335,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li4CO4",
+  "Ps": 48.9922,
+  "energy": 0.0582,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Li6PS5I",
+  "Ps": 2.56389,
+  "energy": 0.0162,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiB13C2",
+  "Ps": 0.781703,
+  "energy": -7.22e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiCrPO4",
+  "Ps": 38.1545,
+  "energy": 0.0276,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiFe4(PO4)3",
+  "Ps": 16.1517,
+  "energy": -0.0103,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiFePO4",
+  "Ps": 25.2206,
+  "energy": 0.0131,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiFePO4",
+  "Ps": 5.17644,
+  "energy": 0.0165,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiFeSiO4",
+  "Ps": 0.641467,
+  "energy": -0.000671,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiMnPO4",
+  "Ps": 5.33498,
+  "energy": -0.0374,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiMnPO4",
+  "Ps": 5.32378,
+  "energy": 0.0299,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiMnPO4",
+  "Ps": 24.5973,
+  "energy": 0.00952,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiMnPO4",
+  "Ps": 13.0171,
+  "energy": -0.0667,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiMnPO4",
+  "Ps": 23.1696,
+  "energy": 0.0144,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiMnPO4",
+  "Ps": 13.0171,
+  "energy": 0.0108,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiMnPO4",
+  "Ps": 33.8528,
+  "energy": -0.0052,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiNbO3",
+  "Ps": 84.53,
+  "energy": 0.0308,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiNiPO4",
+  "Ps": 7.19833,
+  "energy": -0.0654,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiNiPO4",
+  "Ps": 0.200448,
+  "energy": -0.000679,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiNiPO4",
+  "Ps": 0.412049,
+  "energy": 0.0951,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiNiPO4",
+  "Ps": 0.413668,
+  "energy": 0.1,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiP3(WO6)2",
+  "Ps": 5.06038,
+  "energy": 0.00178,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiVF4",
+  "Ps": 47.7544,
+  "energy": 0.0488,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiVF6",
+  "Ps": 1.26947,
+  "energy": -0.0237,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiVPO4",
+  "Ps": 0.126865,
+  "energy": -0.0018,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiVPO4",
+  "Ps": 0.126438,
+  "energy": -0.00133,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiVSiO4",
+  "Ps": 1.69736,
+  "energy": 0.0188,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LiZr2(PO4)3",
+  "Ps": 8.02282,
+  "energy": 0.00276,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "LuGaO3",
+  "Ps": 8.04902,
+  "energy": 0.0212,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Mg(NO3)2",
+  "Ps": 0.735003,
+  "energy": -0.00932,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Mg3B7ClO13",
+  "Ps": 0.346711,
+  "energy": 0.0103,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "MgH2",
+  "Ps": 30.9363,
+  "energy": -0.0396,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "MgH8(ClO6)2",
+  "Ps": 1.00869,
+  "energy": -0.0181,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "MgSiO3",
+  "Ps": 1.11085,
+  "energy": -0.00446,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Mo(HO2)2",
+  "Ps": 0.242639,
+  "energy": -0.00105,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Mo(HO2)2",
+  "Ps": 16.2752,
+  "energy": -0.0773,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Mo(HO2)2",
+  "Ps": 39.1727,
+  "energy": -0.0476,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "MoO3",
+  "Ps": 4.66846,
+  "energy": 0.0635,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Na2MgAlF7",
+  "Ps": 1.05339,
+  "energy": -0.000236,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Na4CO4",
+  "Ps": 39.1735,
+  "energy": 0.0263,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Na4CO4",
+  "Ps": 3.55493,
+  "energy": -0.00113,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Na4CO4",
+  "Ps": 56.234,
+  "energy": 0.153,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Na4CO4",
+  "Ps": 12.6433,
+  "energy": -0.000189,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Na4CO4",
+  "Ps": 39.1735,
+  "energy": 0.00959,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NaAlH2CO5",
+  "Ps": 0.759652,
+  "energy": -0.000639,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NaHO",
+  "Ps": 10.7046,
+  "energy": 0.00102,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NaHO",
+  "Ps": 10.7045,
+  "energy": 0.00185,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NaN3",
+  "Ps": 51.8229,
+  "energy": -0.0125,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NaNbO3",
+  "Ps": 31.4823,
+  "energy": 0.0217,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NaNbO3",
+  "Ps": 31.4813,
+  "energy": -2.36e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NaNbO3",
+  "Ps": 53.9252,
+  "energy": 0.015,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Nb2Bi2PbO9",
+  "Ps": 38.0543,
+  "energy": 0.0411,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NbO2F",
+  "Ps": 127.505,
+  "energy": 0.112,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NbPO5",
+  "Ps": 4.02033,
+  "energy": -0.000605,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NbSbO4",
+  "Ps": 18.0962,
+  "energy": 0.00029,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "NdF3",
+  "Ps": 17.5869,
+  "energy": 0.171,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "PH3O4",
+  "Ps": 4.08237,
+  "energy": 0.0101,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "PH3O4",
+  "Ps": 4.08239,
+  "energy": -0.00281,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "PH3O4",
+  "Ps": 4.08242,
+  "energy": -0.0134,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "PbCN2",
+  "Ps": 10.5431,
+  "energy": -0.00325,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "PbF2",
+  "Ps": 5.01691,
+  "energy": -0.00235,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "PbN6",
+  "Ps": 0.42946,
+  "energy": -0.000328,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "PbO",
+  "Ps": 54.2973,
+  "energy": -0.00194,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Pr(HO)3",
+  "Ps": 0.142995,
+  "energy": 0.00152,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Pr(HO)3",
+  "Ps": 0.141967,
+  "energy": -0.000127,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb2CoCl4",
+  "Ps": 0.0790774,
+  "energy": -0.00148,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb2ZnCl4",
+  "Ps": 0.266286,
+  "energy": -0.000361,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb2ZnCl4",
+  "Ps": 0.484916,
+  "energy": 0.00559,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb4CO4",
+  "Ps": 14.6049,
+  "energy": 0.00306,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb4CO4",
+  "Ps": 0.598555,
+  "energy": -0.000546,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb4CO4",
+  "Ps": 14.6046,
+  "energy": -0.0037,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb4CO4",
+  "Ps": 42.7846,
+  "energy": -0.0243,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb4CO4",
+  "Ps": 14.6046,
+  "energy": -0.00146,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb6Si10O23",
+  "Ps": 0.0962374,
+  "energy": 0.0129,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Rb6Si10O23",
+  "Ps": 0.546235,
+  "energy": 0.00775,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "RbHF2",
+  "Ps": 1.55099,
+  "energy": -0.00119,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "RbP(HO2)2",
+  "Ps": 5.44878,
+  "energy": 0.00586,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "RbPbF3",
+  "Ps": 3.98858,
+  "energy": 0.0337,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SbO2",
+  "Ps": 4.57831,
+  "energy": 0.0011,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "ScBiO3",
+  "Ps": 5.6811,
+  "energy": 0.000106,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "ScBiO3",
+  "Ps": 5.68098,
+  "energy": 0.324,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "ScGaO3",
+  "Ps": 10.0117,
+  "energy": 0.0133,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 89.9278,
+  "energy": 0.252,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.0262737,
+  "energy": 0.005,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.00906958,
+  "energy": 0.00378,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 89.044,
+  "energy": 0.415,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.0680995,
+  "energy": 0.0083,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 89.9302,
+  "energy": 1.27,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.160252,
+  "energy": 0.00419,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 270.579,
+  "energy": -0.106,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.0363737,
+  "energy": -0.000305,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.161745,
+  "energy": 0.00372,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.0167767,
+  "energy": -0.000392,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.377281,
+  "energy": -0.00982,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SiO2",
+  "Ps": 0.0352877,
+  "energy": -0.00336,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Sn3(HO2)2",
+  "Ps": 1.60843,
+  "energy": -0.00773,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Sr(H2O3)2",
+  "Ps": 9.35121,
+  "energy": -0.0707,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Sr(H2O3)2",
+  "Ps": 7.67521,
+  "energy": -0.0382,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Sr(HO)2",
+  "Ps": 1.16546,
+  "energy": -0.0014,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Sr(HO)2",
+  "Ps": 1.16538,
+  "energy": 0.00246,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Sr2Ta2O7",
+  "Ps": 2.9891,
+  "energy": -5.65e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SrHfO3",
+  "Ps": 15.1275,
+  "energy": 1.56e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SrMgF4",
+  "Ps": 10.7487,
+  "energy": 0.0348,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SrTa2Bi2O9",
+  "Ps": 38.28,
+  "energy": 0.019,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "SrTa2Bi2O9",
+  "Ps": 36.8888,
+  "energy": 0.0281,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Tb6Cs2Te7N2",
+  "Ps": 0.223737,
+  "energy": 0.000303,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Te(HO2)2",
+  "Ps": 21.9484,
+  "energy": 0.0125,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "TeO3",
+  "Ps": 0.020951,
+  "energy": 0.00173,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ti3(BiO3)4",
+  "Ps": 11.4616,
+  "energy": 0.0233,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ti3(BiO3)4",
+  "Ps": 58.0511,
+  "energy": 0.0619,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Ti3(BiO3)4",
+  "Ps": 17.0446,
+  "energy": 0.0626,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "TiCdO3",
+  "Ps": 34.8323,
+  "energy": 0.00356,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "TiCdO3",
+  "Ps": 37.1931,
+  "energy": 0.00279,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "TiPbO3",
+  "Ps": 116.763,
+  "energy": 0.04,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "TiTlPO5",
+  "Ps": 22.1282,
+  "energy": 0.00356,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "TlF",
+  "Ps": 6.37188,
+  "energy": 0.03,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "TlHCO2",
+  "Ps": 0.759417,
+  "energy": -9.59e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "U(HO2)2",
+  "Ps": 2.85341,
+  "energy": -0.00366,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "U(HO2)2",
+  "Ps": 2.85375,
+  "energy": 0.0953,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "U3(HO5)2",
+  "Ps": 22.9502,
+  "energy": 0.0335,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "U3(HO5)2",
+  "Ps": 22.9502,
+  "energy": -0.0337,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "VF5",
+  "Ps": 29.7219,
+  "energy": 0.0229,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "VF5",
+  "Ps": 1.03396,
+  "energy": 0.00258,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "WO3",
+  "Ps": 21.0323,
+  "energy": 0.000575,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "WO3",
+  "Ps": 21.0322,
+  "energy": 0.00135,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "WO3",
+  "Ps": 21.0322,
+  "energy": 0.00136,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Y(HO)3",
+  "Ps": 7.73475,
+  "energy": -0.000978,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "YBiO3",
+  "Ps": 9.68294,
+  "energy": 0.035,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "YSbO3",
+  "Ps": 7.52254,
+  "energy": 0.0171,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "YScO3",
+  "Ps": 6.56203,
+  "energy": 0.0109,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Zn(HO)2",
+  "Ps": 0.556508,
+  "energy": -0.00155,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Zn(NO3)2",
+  "Ps": 1.11714,
+  "energy": -0.00383,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "Zn3(BO3)2",
+  "Ps": 0.0633659,
+  "energy": -5.97e-05,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "ZrO2",
+  "Ps": 51.1602,
+  "energy": 0.0475,
+  "project": "ferroelectrics"
+ },
+ {
+  "formula": "ZrPbO3",
+  "Ps": 23.5263,
+  "energy": -0.00452,
+  "project": "ferroelectrics"
+ }
+]
