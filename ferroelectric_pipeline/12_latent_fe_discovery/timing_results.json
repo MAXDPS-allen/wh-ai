@@ -1,0 +1,32 @@
+{
+  "equivariance": {
+    "logit_invariance_err": 1.9073486328125e-05,
+    "amp_invariance_err": 6.866455078125e-05,
+    "mode_equivariance_err": 0.00010752677917480469
+  },
+  "ml_inference": {
+    "forward_per_material_ms": 15.089294799836352,
+    "device": "cpu",
+    "n": 200
+  },
+  "dft_walltimes": {
+    "SrAlGeH (full FE proof)": {
+      "n_vasp_calcs": 29,
+      "total_wall_sec": 22553.033,
+      "total_wall_hr": 6.2647313888888885,
+      "per_calc_sec_mean": 777.6907931034483
+    },
+    "Ba2CaMoO6 (cascade verify)": {
+      "n_vasp_calcs": 5,
+      "total_wall_sec": 9753.333,
+      "total_wall_hr": 2.709259166666667,
+      "per_calc_sec_mean": 1950.6666
+    },
+    "Ac2O3 (cascade verify)": {
+      "n_vasp_calcs": 5,
+      "total_wall_sec": 2290.4440000000004,
+      "total_wall_hr": 0.6362344444444445,
+      "per_calc_sec_mean": 458.0888000000001
+    }
+  }
+}
