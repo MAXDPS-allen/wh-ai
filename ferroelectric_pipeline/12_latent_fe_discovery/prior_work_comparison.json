@@ -1,0 +1,25 @@
+{
+  "prior_databases": {
+    "ferroelectrics (Smidt 2020, Sci.Data)": 413,
+    "ferroelectrics_ext (Ricci 2024, npj Comput.Mater. 10.1038/s41524-023-01193-3)": 517,
+    "access": "MPContribs (contribs-api.materialsproject.org); same Neaton group + atomate/pymatgen workflow as our training data",
+    "fields_per_entry": ["Polar/Nonpolar structures", "Polarization (Berry phase)", "Energy|diff", "scores", "Theoretical(synthesizable?)"]
+  },
+  "cross_check_our_materials": {
+    "SrAlGeH (mp-980057)": {"in_prior": "ferroelectrics_ext", "their_Ps_uC_cm2": 40.0, "their_dE_meV_atom": 63, "their_label": "Candidate FE", "theoretical": "No (experimentally known)",
+       "our_Ps_uC_cm2": 9.9, "our_dwell_meV_atom": 74,
+       "verdict": "INDEPENDENTLY CONFIRMED as candidate FE; energy double-well agrees (63 vs 74 meV/atom); Ps differs (40 vs 9.9) -> our fast frozen-distortion + aggressive polarization-quantum reduction underestimates; their Bilbao-reference Berry-phase value (40) is authoritative -> reuse theirs"},
+    "GeTe (mp-938)": {"in_prior": "ferroelectrics_ext", "their_Ps_uC_cm2": 66.7, "their_dE_meV_atom": 23,
+       "our_dwell_meV_atom": 36.6, "our_pointcharge_Ps": 23,
+       "verdict": "CONFIRMED; their Berry-phase Ps 66.7 ~ experiment ~60 (validates workflow); our point-charge 23 was an underestimate (expected)"},
+    "CaAlSiH (mp-568177)": {"in_prior": "NOT in either", "verdict": "novel to prior work"},
+    "Ba2CaMoO6 (mp-19403, cubic non-polar)": {"in_prior": "NOT in either", "verdict": "novel; their screen was POLAR structures, our latent-FE discovery screens NON-POLAR parents -> complementary search space"}
+  },
+  "reuse_plan": {
+    "1_direct_reuse": "candidates already in their 930 entries -> pull their relaxed structures + Berry-phase Ps, skip our DFT",
+    "2_training_data": "add their 930 (structure, Ps, Energy) as labels -> directly addresses Tier-2 Ps-regression data bottleneck (1534 -> ~2400, adds real Ps labels we lacked)",
+    "3_benchmark": "independent cross-validation of our predictions (SrAlGeH/GeTe confirmed)",
+    "4_method_fix": "adopt their Bilbao group-subgroup nonpolar reference + full relaxation -> fixes our polarization-quantum/Ps discrepancy",
+    "novelty_preserved": "our non-polar -> latent instability search (Ba2CaMoO6, 173 list) explores space their POLAR screen did not cover"
+  }
+}
