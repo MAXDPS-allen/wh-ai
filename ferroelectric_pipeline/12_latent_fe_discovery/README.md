@@ -208,3 +208,15 @@ python build_dataset.py        # 构建数据集
 python model.py                # 等变性自检
 python train.py --epochs 300   # 从零训练 (当前: 受数据量限制)
 ```
+
+---
+
+## 已发布模型 (production weights)
+
+| 文件 | 模型 | 训练数据 | 性能 |
+|------|------|---------|------|
+| `tier2_ps.pt` (+`tier2_ps_norm.json`) | 自发极化 Ps 回归 (amp 标量头) | **641 = Smidt 255 + Ricci 2024 复用 386** | 5-折 Spearman 0.49, log-R² 0.09 |
+
+推理: `Ps = expm1(amp·std + mean)`, std/mean 见 `tier2_ps_norm.json`。
+这是"复用已发布高通量结果 (MPContribs) 扩充训练 → 模型更强"的产物 (见 §2.5.1 / 图7)。
+其余权重 (tier1_instability.pt, tier2_freq.pt, pretrained_backbone.pt) 为声子数据训练, 可由对应脚本重生成。

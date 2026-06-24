@@ -19,6 +19,7 @@ test_run/*/phonon/disps/
 12_latent_fe_discovery/dataset/structures/
 12_latent_fe_discovery/dataset/parents/
 12_latent_fe_discovery/*.pt
+!12_latent_fe_discovery/tier2_ps.pt          # 发布: 生产 Ps 模型 (Smidt+Ricci 复用训练)
 12_latent_fe_discovery/*.log
 12_latent_fe_discovery/dbg*.py
 12_latent_fe_discovery/probe*.py

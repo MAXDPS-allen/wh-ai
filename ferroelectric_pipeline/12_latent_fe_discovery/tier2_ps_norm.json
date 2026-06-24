@@ -1,0 +1,13 @@
+{
+  "target": "log1p(Ps[uC/cm2])",
+  "mean": 2.611497163772583,
+  "std": 1.4339655637741089,
+  "n_train": 641,
+  "n_smidt": 255,
+  "n_ricci": 386,
+  "sources": "Smidt 2020 (ferroelectrics) + Ricci 2024 (ferroelectrics_ext, reused via MPContribs)",
+  "cv_5fold_spearman": 0.49,
+  "cv_5fold_logR2": 0.09,
+  "head": "amp (invariant scalar)",
+  "inference": "Ps = expm1(amp*std + mean)"
+}
