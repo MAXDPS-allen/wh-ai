@@ -14,7 +14,9 @@ import s4_run_cluster as s4, s6_phonon as s6
 
 API_KEY = "1tIeczIIf3CycCZ5P7V6Z2zndcZeGgFq"
 # 新颖家族 top 候选 (mp_id, 预测软度): 氟化物 elpasolite + 层状卤化物
-NOVEL = [("mp-1079339", "K2NaMnF6", -2.905), ("mp-23202", "InI", -1.145)]
+# 非磁性新颖候选 (磁性 Mn 氟化物 PBE 难收敛, 需 +U, 暂缓):
+# InI 层状卤化物 + KRb2InF6 (In3+ d10 氟化物 elpasolite)
+NOVEL = [("mp-23202", "InI", -1.145), ("mp-1078205", "KRb2InF6", -1.661)]
 SUP = (1, 1, 1)
 VER = HERE / "tier1_screen" / "verify_novel"
 
