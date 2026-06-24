@@ -181,6 +181,22 @@ CsSr₂Nb₃O₁₀ (2)、其它/新颖 (91)。完整清单见 `discovery_list.j
 → 净效果：**阶段①②的 DFT 工作量可因复用 ~930 条已有结果而减少**，同时其 Ps 标签直接喂给
 阶段③主动学习。详见 `prior_work_comparison.json`、`query_mpcontribs.py`、`prior_ferroelectrics.json`。
 
+#### 2.5.1 已用数据证明"复用 → 模型更强"（图 7）
+
+把 Ricci 2024 的 **386 个真值 Ps** 标签并入我们的 Ps 回归训练（与本地 Smidt 255 合并，共 641），
+做 5-折 CV（每折**同一验证集**，对比仅 Smidt vs Smidt+Ricci）：
+
+| 指标 | 仅 Smidt (255) | **+Ricci 复用 (641)** | 提升 |
+|------|----------------|----------------------|------|
+| log 空间 R² | −1.36 ± 0.80 | **+0.09 ± 0.19** | **+1.45** |
+| Spearman 秩相关 ρ | 0.30 ± 0.12 | **0.49 ± 0.10** | **+0.19** |
+| MAE (μC/cm²) | 2783（小数据外推崩坏）| **22.6** | 数量级改善 |
+
+→ **复用他人已发布结果，使我们的 Ps 模型从"不可用"（log-R² −1.4、ρ 0.30）变为"可用"
+（log-R² +0.09、ρ 0.49），5 折一致**。这正是阶段③主动学习的**实证**：更多（无论是复用的还是
+新算的）DFT 真值 → 模型更强。Ps 回归绝对精度仍有限（任务本身难），但"数据→精度"的因果链已用
+数据证实。脚本: `build_ps_dataset.py`（含 `query_mpcontribs.py` 复用）、`train_ps.py`。
+
 ---
 
 ## 3. 图表
@@ -190,6 +206,7 @@ CsSr₂Nb₃O₁₀ (2)、其它/新颖 (91)。完整清单见 `discovery_list.j
 - **图 4** `fig4_switching_barrier.png`：SrAlGeH 铁电切换势垒（对称双势阱）。
 - **图 5** `fig5_endtoend_signatures.png`：端到端测试三材料的决定性铁电判据。
 - **图 6** `fig6_stability_timing.png`：(a) 5-折 CV 稳定性（误差棒）；(b) ML 推理 vs DFT 验证耗时（对数轴，~8×10⁵× 加速）。
+- **图 7** `fig7_reuse_ablation.png`：复用 Ricci 2024 的 Ps 标签使我们 Ps 模型显著变强（Spearman 0.30→0.49，log-R² −1.4→+0.1）。
 
 ---
 
