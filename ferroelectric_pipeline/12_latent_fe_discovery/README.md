@@ -219,4 +219,8 @@ python train.py --epochs 300   # 从零训练 (当前: 受数据量限制)
 
 推理: `Ps = expm1(amp·std + mean)`, std/mean 见 `tier2_ps_norm.json`。
 这是"复用已发布高通量结果 (MPContribs) 扩充训练 → 模型更强"的产物 (见 §2.5.1 / 图7)。
+
+**数据完整性 (补齐已确认)**: 641 = 两个数据库中**全部有 Ps 真值**的条目。
+ferroelectrics_ext 517 条中仅 386 有计算出的 Ps (其余为筛除/未完成); ferroelectrics 413 条中
+仅 250 有 Ps (本地 255 已覆盖)。故 641 即完整可用 Ps 标注集, 无更多可复用数据。
 其余权重 (tier1_instability.pt, tier2_freq.pt, pretrained_backbone.pt) 为声子数据训练, 可由对应脚本重生成。
