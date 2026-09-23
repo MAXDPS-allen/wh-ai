@@ -339,7 +339,7 @@ def collect_live_probe(
                 }
             )
         process_command = (
-            "for pid in $(pgrep -f 'vasp_std|PWmat' || true); do "
+            "for pid in $(pgrep -f '[v]asp_std|[P]Wmat' || true); do "
             "cwd=$(readlink -f /proc/$pid/cwd 2>/dev/null || true); "
             "args=$(tr '\\0' ' ' </proc/$pid/cmdline 2>/dev/null || true); "
             "case \"$cwd $args\" in *dfpt*|*gamma*) "

@@ -268,3 +268,6 @@ def test_live_probe_uses_read_only_ssh_and_builds_fresh_schema() -> None:
     lock_commands = [command[-1] for command in commands if "stage17_smidt_fast.lock" in command[-1]]
     assert len(lock_commands) == 1
     assert "flock -n" in lock_commands[0]
+    process_commands = [command[-1] for command in commands if "pgrep -f" in command[-1]]
+    assert len(process_commands) == 1
+    assert "pgrep -f '[v]asp_std|[P]Wmat'" in process_commands[0]
