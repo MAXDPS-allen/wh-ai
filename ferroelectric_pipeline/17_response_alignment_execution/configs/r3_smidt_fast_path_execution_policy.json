@@ -74,5 +74,16 @@
       }
     }
   },
-  "nodes": {}
+  "nodes": {
+    "g4": {
+      "gpu": {
+        "smoke_record_path": "runs/R3_candidate_screening/smidt-fast-0e6ea80f26317aad/smokes/g4-gpu-20260923T121527Z.json",
+        "smoke_record_sha256": "26957556cd03be946669284b775cc7de352c4feae2af591e37c1fdc268c66e45",
+        "max_concurrency": 4,
+        "cpu_cores": 16,
+        "ram_gib": 64,
+        "gpu_ids": [0, 1, 2, 3]
+      }
+    }
+  }
 }

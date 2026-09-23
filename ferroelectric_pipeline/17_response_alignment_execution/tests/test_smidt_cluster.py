@@ -131,11 +131,14 @@ def _tasks(stage: str, count: int) -> list[TaskSpec]:
     ]
 
 
-def test_repository_policy_is_dedicated_and_deny_by_default() -> None:
+def test_repository_policy_is_dedicated_and_contains_only_measured_admission() -> None:
     policy = load_execution_policy(STAGE17_ROOT / "configs/r3_smidt_fast_path_execution_policy.json")
     assert policy["scope"] == "R3_smidt_fast_path"
     assert policy["max_tasks_per_submission"] == 40
-    assert policy["nodes"] == {}
+    assert set(policy["nodes"]) == {"g4"}
+    assert set(policy["nodes"]["g4"]) == {"gpu"}
+    assert policy["nodes"]["g4"]["gpu"]["gpu_ids"] == [0, 1, 2, 3]
+    assert len(policy["nodes"]["g4"]["gpu"]["smoke_record_sha256"]) == 64
 
 
 @pytest.mark.parametrize(("stage", "profile"), [("static", "gpu"), ("berry", "cpu")])
