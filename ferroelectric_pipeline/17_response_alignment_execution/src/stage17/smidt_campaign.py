@@ -204,11 +204,9 @@ def prepare_path_inputs(
     decision = validate_parent(endpoints.polar, endpoints.parent, config)
     if not decision.accepted:
         raise ValueError("relaxed endpoint parent validation failed: " + ",".join(decision.reasons))
-    source_manifest = {
+    campaign_identity = {
         "schema_version": 1,
         "material_id": candidate_id,
-        "refinement_level": refinement_level,
-        "image_count": REFINEMENT_IMAGE_COUNTS[refinement_level],
         "gate_results": {
             "path": str(Path(gate_results_path).resolve()),
             "sha256": endpoints.gate_results_sha256,
@@ -221,8 +219,14 @@ def prepare_path_inputs(
         "mapping_rms_A": decision.mapping_rms_A,
         "mapping_max_A": decision.mapping_max_A,
     }
+    source_manifest = {
+        **campaign_identity,
+        "refinement_level": refinement_level,
+        "image_count": REFINEMENT_IMAGE_COUNTS[refinement_level],
+    }
     manifest_bytes = _canonical_json(source_manifest)
-    source_digest = hashlib.sha256(manifest_bytes).hexdigest()
+    source_digest = hashlib.sha256(_canonical_json(campaign_identity)).hexdigest()
+    manifest_digest = hashlib.sha256(manifest_bytes).hexdigest()
     campaign_dir = Path(output_root) / f"smidt-fast-{source_digest[:16]}"
     path_root = campaign_dir / "paths" / refinement_level
     path_root.mkdir(parents=True, exist_ok=False)
@@ -253,7 +257,7 @@ def prepare_path_inputs(
         tuple(decision.mapping),
         tuple(decision.mapping_jimages),
         decision.accepted,
-        source_digest,
+        manifest_digest,
         tuple(work_dirs),
     )
 

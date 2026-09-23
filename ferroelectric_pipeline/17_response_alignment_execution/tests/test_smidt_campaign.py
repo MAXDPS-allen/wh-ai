@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import hashlib
+import importlib.util
 import json
 from pathlib import Path
 import sys
+from types import SimpleNamespace
 
 import pytest
 from pymatgen.core import Lattice, Structure
@@ -163,6 +165,28 @@ def test_prepare_real_candidate_freezes_mapping_and_separates_refinement_paths(
     assert (prepared.campaign_dir / f"paths/{level}/source_manifest.json").is_file()
 
 
+def test_coarse_and_dense_share_campaign_identity_but_never_paths(tmp_path: Path) -> None:
+    def fake_writer(structure: Structure, destination: Path, config) -> None:
+        destination.mkdir(parents=True, exist_ok=False)
+        Poscar(structure).write_file(destination / "POSCAR")
+        (destination / "input_manifest.json").write_text("{}\n", encoding="utf-8")
+
+    common = {
+        "output_root": tmp_path,
+        "endpoint_run": REAL_ENDPOINT_RUN,
+        "gate_results_path": REAL_GATE_RESULTS,
+        "candidate_id": "mp-aaacrlli",
+        "config": load_config(REAL_CONFIG),
+        "static_writer": fake_writer,
+    }
+    coarse = prepare_path_inputs(refinement_level="coarse", **common)
+    dense = prepare_path_inputs(refinement_level="dense", **common)
+    assert coarse.campaign_dir == dense.campaign_dir
+    assert (coarse.campaign_dir / "paths/coarse/structures/image-009.json").is_file()
+    assert (dense.campaign_dir / "paths/dense/structures/image-018.json").is_file()
+    assert coarse.static_work_dirs[1] != dense.static_work_dirs[1]
+
+
 def _parsed_static(index: int, gap: float = 0.5) -> ParsedStatic:
     return ParsedStatic(
         status="complete",
@@ -294,3 +318,129 @@ def test_berry_collection_keeps_parser_failure_operational() -> None:
     )
     assert result.decision.state == "operational_inconclusive"
     assert result.decision.reason_codes == ("missing_p_ion",)
+
+
+def _load_cli():
+    path = STAGE17_ROOT / "scripts/run_r3_smidt_fast_path.py"
+    spec = importlib.util.spec_from_file_location("run_r3_smidt_fast_path_test", path)
+    assert spec is not None and spec.loader is not None
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def test_cli_prepare_is_no_clobber_and_hash_chains_attempts(tmp_path: Path, monkeypatch) -> None:
+    cli = _load_cli()
+    source_bytes = b'{"material_id":"mp-aaacrlli"}\n'
+
+    def fake_prepare_path_inputs(**kwargs):
+        campaign = Path(kwargs["output_root"]) / "smidt-fast-test"
+        path_root = campaign / "paths/coarse"
+        path_root.mkdir(parents=True, exist_ok=True)
+        source = path_root / "source_manifest.json"
+        if not source.exists():
+            source.write_bytes(source_bytes)
+        structures = tuple(_toy_endpoints()[0] for _ in range(10))
+        work = tuple(
+            campaign / f"work/coarse/static/image-{index:03d}" for index in range(10)
+        )
+        for directory in work:
+            directory.mkdir(parents=True, exist_ok=True)
+        return SimpleNamespace(
+            material_id="mp-aaacrlli",
+            campaign_dir=campaign,
+            refinement_level="coarse",
+            structures=structures,
+            static_work_dirs=work,
+            source_manifest_sha256=hashlib.sha256(source_bytes).hexdigest(),
+        )
+
+    monkeypatch.setattr(cli, "prepare_path_inputs", fake_prepare_path_inputs)
+    monkeypatch.setattr(cli, "load_config", lambda path: object())
+    monkeypatch.setattr(cli, "write_switching_static", lambda *args: None)
+    argv = [
+        "prepare",
+        "--candidate",
+        "mp-aaacrlli",
+        "--output-root",
+        str(tmp_path),
+    ]
+    assert cli.main(argv, stage17_root=STAGE17_ROOT) == 0
+    assert cli.main(argv, stage17_root=STAGE17_ROOT) == 0
+    campaign = tmp_path / "smidt-fast-test"
+    attempts = sorted((campaign / "attempts").iterdir())
+    assert [path.name for path in attempts] == ["attempt-01", "attempt-02"]
+    assert (campaign / "paths/coarse/source_manifest.json").read_bytes() == source_bytes
+    for attempt in attempts:
+        assert (attempt / "request.json").is_file()
+        assert (attempt / "source_manifest.json").is_file()
+        assert (attempt / "stdout.txt").is_file()
+        assert (attempt / "stderr.txt").is_file()
+        assert (attempt / "result.json").is_file()
+        assert (attempt / "COMPLETED").is_file()
+    second_request = json.loads((attempts[1] / "request.json").read_text())
+    assert second_request["resume_from"]["attempt"] == "attempt-01"
+    assert len(second_request["resume_from"]["terminal_record_sha256"]) == 64
+
+
+def test_cli_dry_run_never_dispatches_and_failed_launch_gets_failed_attempt(
+    tmp_path: Path, monkeypatch
+) -> None:
+    cli = _load_cli()
+    campaign = tmp_path / "smidt-fast-test"
+    source = campaign / "paths/coarse/source_manifest.json"
+    source.parent.mkdir(parents=True)
+    source.write_text('{"material_id":"mp-aaacrlli"}\n', encoding="utf-8")
+    for index in range(10):
+        (campaign / f"work/coarse/static/image-{index:03d}").mkdir(parents=True)
+    policy_path = tmp_path / "policy.json"
+    policy_path.write_text(json.dumps({"nodes": {"g4": {}}, "probeable_nodes": ["g4"]}), encoding="utf-8")
+    policy = {
+        "nodes": {"g4": {}},
+        "probeable_nodes": ["g4"],
+        "max_tasks_per_submission": 40,
+    }
+    monkeypatch.setattr(cli, "load_execution_policy", lambda path: policy)
+    monkeypatch.setattr(cli, "collect_live_probe", lambda *args, **kwargs: {"node": "g4"})
+    monkeypatch.setattr(cli, "load_smoke_records", lambda *args, **kwargs: {})
+    monkeypatch.setattr(
+        cli,
+        "plan_submission",
+        lambda *args, **kwargs: SimpleNamespace(
+            stage="static", profile="gpu", assignments=tuple(range(10))
+        ),
+    )
+    monkeypatch.setattr(
+        cli,
+        "dispatch_submission",
+        lambda *args, **kwargs: (_ for _ in ()).throw(AssertionError("must not dispatch")),
+    )
+    dry = [
+        "dry-run",
+        "--campaign",
+        str(campaign),
+        "--stage",
+        "static",
+        "--policy",
+        str(policy_path),
+    ]
+    assert cli.main(dry, stage17_root=STAGE17_ROOT) == 0
+
+    monkeypatch.setattr(
+        cli,
+        "plan_submission",
+        lambda *args, **kwargs: (_ for _ in ()).throw(ValueError("no admitted smoke")),
+    )
+    launch = [
+        "launch",
+        "--campaign",
+        str(campaign),
+        "--stage",
+        "static",
+        "--policy",
+        str(policy_path),
+    ]
+    assert cli.main(launch, stage17_root=STAGE17_ROOT) == 2
+    latest = sorted((campaign / "attempts").iterdir())[-1]
+    assert (latest / "failure.json").is_file()
+    assert (latest / "FAILED").is_file()
