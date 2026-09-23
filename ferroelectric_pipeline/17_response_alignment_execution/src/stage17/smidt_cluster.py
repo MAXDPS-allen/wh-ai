@@ -297,8 +297,15 @@ def collect_live_probe(
                 "available": available == "1",
             }
         lock_path = str(policy.get("lock_path", ""))
+        quoted_lock_path = shlex.quote(lock_path)
         lock_present = _ssh_read(
-            node, f"test -e {shlex.quote(lock_path)} && echo 1 || echo 0", runner
+            node,
+            (
+                f"if test -e {quoted_lock_path}; then "
+                f"if flock -n {quoted_lock_path} -c true >/dev/null 2>&1; "
+                "then echo 0; else echo 1; fi; else echo 0; fi"
+            ),
+            runner,
         ) == "1"
         try:
             gpu_text = _ssh_read(

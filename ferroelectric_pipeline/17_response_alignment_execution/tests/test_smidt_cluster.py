@@ -265,3 +265,6 @@ def test_live_probe_uses_read_only_ssh_and_builds_fresh_schema() -> None:
     assert probe["stage17_locks"] == []
     assert probe["live_dfpt_processes"] == []
     assert all(command[:3] == ["ssh", "-o", "BatchMode=yes"] for command in commands)
+    lock_commands = [command[-1] for command in commands if "stage17_smidt_fast.lock" in command[-1]]
+    assert len(lock_commands) == 1
+    assert "flock -n" in lock_commands[0]
