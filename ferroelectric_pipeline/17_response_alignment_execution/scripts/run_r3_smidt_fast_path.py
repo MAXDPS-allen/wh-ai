@@ -9,6 +9,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import shlex
 import shutil
 import subprocess
 import sys
@@ -40,6 +41,7 @@ from stage17.smidt_cluster import (
     dispatch_submission,
     load_execution_policy,
     plan_submission,
+    render_environment_exports,
 )
 from stage17.smidt_fast_path import FastPathDecision, StaticObservation
 
@@ -398,7 +400,8 @@ def _run_smoke(args, policy: dict, runner, attempt: Path) -> dict:
     launcher = policy.get("launchers", {}).get(args.profile, ["mpirun", "-np", "1"])
     command = " ".join([*(str(value) for value in launcher), str(executable)])
     gpu = "CUDA_VISIBLE_DEVICES=0 " if args.profile == "gpu" else ""
-    remote = f"cd {work} && {gpu}{command} > vasp.out 2>&1"
+    setup = " && ".join(render_environment_exports(args.profile, policy))
+    remote = f"cd {shlex.quote(str(work))} && {setup} && {gpu}{command} > vasp.out 2>&1"
     started = _utc_now()
     completed = runner(
         ["ssh", "-o", "BatchMode=yes", args.node, remote],

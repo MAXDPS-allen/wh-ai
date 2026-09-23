@@ -19,6 +19,7 @@ from stage17.smidt_cluster import (  # noqa: E402
     dispatch_submission,
     load_execution_policy,
     plan_submission,
+    render_environment_exports,
     retry_allowed,
 )
 
@@ -61,6 +62,18 @@ def _policy() -> dict:
         "operational_retries": 1,
         "lock_path": "/tmp/stage17_smidt_fast.lock",
         "executables": {"gpu": "/gpu/vasp", "cpu": "/cpu/vasp"},
+        "environment_setup": {
+            "gpu": {
+                "prepend_path": ["/gpu/mpi/bin"],
+                "prepend_ld_library_path": ["/gpu/qd/lib", "/gpu/cuda/lib64"],
+                "variables": {"OMP_NUM_THREADS": "4", "OMPI_MCA_pml": "ob1"},
+            },
+            "cpu": {
+                "prepend_path": ["/cpu/mpi/bin"],
+                "prepend_ld_library_path": ["/cpu/qd/lib"],
+                "variables": {"OMP_NUM_THREADS": "1"},
+            },
+        },
         "nodes": {
             "g4": {
                 "gpu": {
@@ -209,6 +222,14 @@ def test_retry_is_limited_to_one_operational_failure() -> None:
     assert retry_allowed("scientific", 0, policy) is False
 
 
+def test_environment_exports_are_shared_by_smoke_and_queue() -> None:
+    lines = render_environment_exports("gpu", _policy())
+    assert 'export PATH=/gpu/mpi/bin:"${PATH:-}"' in lines
+    assert 'export LD_LIBRARY_PATH=/gpu/qd/lib:/gpu/cuda/lib64:"${LD_LIBRARY_PATH:-}"' in lines
+    assert "export OMP_NUM_THREADS=4" in lines
+    assert "export OMPI_MCA_pml=ob1" in lines
+
+
 def test_dispatch_writes_scripts_and_uses_injected_runner(tmp_path: Path) -> None:
     plan = plan_submission(
         "static",
@@ -227,7 +248,9 @@ def test_dispatch_writes_scripts_and_uses_injected_runner(tmp_path: Path) -> Non
     dispatch = dispatch_submission(plan, tmp_path, _policy(), runner=fake_runner)
     assert len(calls) == 1
     assert calls[0][:3] == ["ssh", "-o", "BatchMode=yes"]
-    assert (tmp_path / "dispatch/g4-static-queue.sh").is_file()
+    queue_path = tmp_path / "dispatch/g4-static-queue.sh"
+    assert queue_path.is_file()
+    assert "export LD_LIBRARY_PATH=/gpu/qd/lib:/gpu/cuda/lib64" in queue_path.read_text()
     assert dispatch["status"] == "dispatched"
     assert dispatch["nodes"]["g4"]["pid"] == 12345
 

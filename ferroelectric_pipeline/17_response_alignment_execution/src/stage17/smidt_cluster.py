@@ -66,6 +66,7 @@ def load_execution_policy(path: Path) -> dict:
         "operational_retries",
         "lock_path",
         "executables",
+        "environment_setup",
         "nodes",
     }
     if not isinstance(value, dict) or not required <= set(value):
@@ -77,6 +78,36 @@ def load_execution_policy(path: Path) -> dict:
     if not isinstance(value["nodes"], dict):
         raise ValueError("Smidt execution policy nodes must be an object")
     return value
+
+
+def render_environment_exports(profile: str, policy: Mapping[str, object]) -> tuple[str, ...]:
+    """Render the frozen VASP runtime environment shared by smoke and workers."""
+    raw_profiles = policy.get("environment_setup")
+    if not isinstance(raw_profiles, Mapping) or profile not in raw_profiles:
+        raise ValueError(f"missing {profile} execution environment")
+    setup = raw_profiles[profile]
+    if not isinstance(setup, Mapping):
+        raise ValueError(f"invalid {profile} execution environment")
+    lines: list[str] = []
+    for key, shell_name in (
+        ("prepend_path", "PATH"),
+        ("prepend_ld_library_path", "LD_LIBRARY_PATH"),
+    ):
+        values = setup.get(key)
+        if not isinstance(values, list) or not values or not all(
+            isinstance(value, str) and value for value in values
+        ):
+            raise ValueError(f"invalid {profile} {key}")
+        prefix = ":".join(shlex.quote(value) for value in values)
+        lines.append(f'export {shell_name}={prefix}:"${{{shell_name}:-}}"')
+    variables = setup.get("variables")
+    if not isinstance(variables, Mapping) or not variables:
+        raise ValueError(f"invalid {profile} environment variables")
+    for name, value in sorted(variables.items()):
+        if not isinstance(name, str) or not name.isidentifier() or not isinstance(value, str):
+            raise ValueError(f"invalid {profile} environment variable")
+        lines.append(f"export {name}={shlex.quote(value)}")
+    return tuple(lines)
 
 
 def _parse_utc(value: object) -> datetime:
@@ -383,6 +414,7 @@ def _queue_script(
         f"ROOT={shlex.quote(str(STAGE17_ROOT))}",
         f"exec 9>{shlex.quote(str(policy['lock_path']))}",
         "flock -n 9 || exit 75",
+        *render_environment_exports(plan.profile, policy),
     ]
     for worker, rows in sorted(groups.items()):
         function = f"worker_{worker}"

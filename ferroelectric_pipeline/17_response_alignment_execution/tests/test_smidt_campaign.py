@@ -444,3 +444,45 @@ def test_cli_dry_run_never_dispatches_and_failed_launch_gets_failed_attempt(
     latest = sorted((campaign / "attempts").iterdir())[-1]
     assert (latest / "failure.json").is_file()
     assert (latest / "FAILED").is_file()
+
+
+def test_smoke_uses_the_same_profile_environment_as_dispatched_workers(
+    tmp_path: Path, monkeypatch
+) -> None:
+    cli = _load_cli()
+    input_dir = tmp_path / "input"
+    input_dir.mkdir()
+    for name in ("INCAR", "KPOINTS", "POSCAR", "POTCAR", "input_manifest.json"):
+        (input_dir / name).write_text(name, encoding="utf-8")
+    campaign = tmp_path / "campaign"
+    attempt = campaign / "attempts/attempt-01"
+    attempt.mkdir(parents=True)
+    calls = []
+
+    def fake_runner(command, **kwargs):
+        calls.append(command)
+        return SimpleNamespace(returncode=0)
+
+    monkeypatch.setattr(cli, "parse_completion", lambda path: SimpleNamespace(normally_terminated=True))
+    policy = {
+        "executables": {"gpu": "/gpu/vasp"},
+        "launchers": {"gpu": ["/gpu/mpirun", "-np", "1"]},
+        "timeouts_seconds": {"static": 10},
+        "environment_setup": {
+            "gpu": {
+                "prepend_path": ["/gpu/mpi/bin"],
+                "prepend_ld_library_path": ["/gpu/qd/lib"],
+                "variables": {"OMP_NUM_THREADS": "4"},
+            }
+        },
+    }
+    args = SimpleNamespace(
+        input_dir=input_dir,
+        profile="gpu",
+        node="g4",
+        campaign=campaign,
+    )
+    cli._run_smoke(args, policy, fake_runner, attempt)
+    remote = calls[0][-1]
+    assert 'export LD_LIBRARY_PATH=/gpu/qd/lib:"${LD_LIBRARY_PATH:-}"' in remote
+    assert "CUDA_VISIBLE_DEVICES=0 /gpu/mpirun -np 1 /gpu/vasp" in remote

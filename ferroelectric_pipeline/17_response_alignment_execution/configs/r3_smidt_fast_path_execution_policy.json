@@ -29,5 +29,50 @@
       "1"
     ]
   },
+  "environment_setup": {
+    "gpu": {
+      "prepend_path": [
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/comm_libs/11.8/hpcx/hpcx-2.14/ompi/bin",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/compilers/bin",
+        "/share/home/caiby/miniforge3/envs/fe_gpu/bin"
+      ],
+      "prepend_ld_library_path": [
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/compilers/lib",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/compilers/extras/qd/lib",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/cuda/11.8/lib64",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/math_libs/11.8/lib64",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/comm_libs/11.8/hpcx/hpcx-2.14/ompi/lib",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/comm_libs/11.8/hpcx/hpcx-2.14/ucx/lib",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/comm_libs/11.8/hpcx/hpcx-2.14/ucc/lib",
+        "/share/home/caiby/miniforge3/envs/fe_dft/lib"
+      ],
+      "variables": {
+        "OMP_NUM_THREADS": "4",
+        "OMPI_MCA_btl": "self,vader",
+        "OMPI_MCA_btl_openib_allow_ib": "0",
+        "OMPI_MCA_pml": "ob1"
+      }
+    },
+    "cpu": {
+      "prepend_path": [
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/comm_libs/11.8/hpcx/hpcx-2.14/ompi/bin",
+        "/share/home/caiby/miniforge3/envs/fe_dft/bin"
+      ],
+      "prepend_ld_library_path": [
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/compilers/lib",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/compilers/extras/qd/lib",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/comm_libs/11.8/hpcx/hpcx-2.14/ompi/lib",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/comm_libs/11.8/hpcx/hpcx-2.14/ucx/lib",
+        "/share/apps/nvhpc/2311/Linux_x86_64/23.11/comm_libs/11.8/hpcx/hpcx-2.14/ucc/lib",
+        "/share/home/caiby/miniforge3/envs/fe_dft/lib"
+      ],
+      "variables": {
+        "OMP_NUM_THREADS": "1",
+        "OMPI_MCA_btl": "self,vader",
+        "OMPI_MCA_btl_openib_allow_ib": "0",
+        "OMPI_MCA_pml": "ob1"
+      }
+    }
+  },
   "nodes": {}
 }
